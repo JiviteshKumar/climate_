@@ -59,11 +59,15 @@ SVG graphic. Crawl directives are published in `robots.txt`, which references `s
 
 ## Web analytics
 
-Google Analytics 4 is wired into every page via the `gtag.js` tag in the document head. Replace the
-placeholder `G-XXXXXXXXXX` with the Measurement ID of your own GA4 data stream:
+Google Analytics 4 is live on every page via the `gtag.js` tag in the document head, reporting to
+the property **Heatwave Intelligence Platform** under the data stream *Heatwave Platform — Web*
+(Measurement ID `G-LTDNH2WP4D`). Enhanced measurement is enabled, so scrolls, outbound clicks and
+site searches are captured in addition to page views.
+
+To point the site at a different GA4 property, replace the Measurement ID across the HTML files:
 
 ```bash
-grep -rl "G-XXXXXXXXXX" . --include=*.html | xargs sed -i "s/G-XXXXXXXXXX/G-YOURID/g"
+grep -rl "G-LTDNH2WP4D" . --include=*.html | xargs sed -i "s/G-LTDNH2WP4D/G-YOURID/g"
 ```
 
 ## Data
