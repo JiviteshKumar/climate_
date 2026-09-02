@@ -1,0 +1,21 @@
+# robots.txt - Heatwave Intelligence Platform
+# Use Case KJS-CES-01, Climate Intelligence for Heatwave Monitoring,
+# Prediction and Early Warning
+# Site: https://jiviteshkumar.github.io/climate_/
+
+# All crawlers may index the whole platform.
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+# Explicit directives for the two major crawlers.
+User-agent: Googlebot
+Allow: /
+Disallow: /404.html
+
+User-agent: Bingbot
+Allow: /
+Disallow: /404.html
+
+# Reference to the XML sitemap for complete URL discovery.
+Sitemap: https://jiviteshkumar.github.io/climate_/sitemap.xml
