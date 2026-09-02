@@ -222,7 +222,7 @@ p code,li code,td code{background:var(--paper-3);padding:2px 6px;border-radius:5
 
 /* ---------- Footer ---------- */
 footer.site{background:#0f172a;color:#cbd5e1;padding-block:44px 28px;font-size:14.5px}
-footer.site h4{color:#fff;font-size:13px;letter-spacing:.09em;text-transform:uppercase;margin:0 0 14px}
+footer.site h3.f-head{color:#fff;font-size:13px;letter-spacing:.09em;text-transform:uppercase;margin:0 0 14px}
 footer.site a{color:#cbd5e1}
 footer.site a:hover{color:#fff}
 .f-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:36px;margin-bottom:30px}
