@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>IoT Automated Weather Station Network | Localized Heat Monitoring</title>
+<meta name="description" content="IoT-enabled Automated Weather Station network streaming localized temperature, humidity and wind observations used to validate region-wise heatwave forecasts.">
+<meta name="keywords" content="IoT automated weather station, AWS weather monitoring, ESP32 weather sensor, localized temperature monitoring, forecast validation, MQTT telemetry, heat monitoring network">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Jivitesh Kumar, Department of Information Technology, KJSSE">
+<link rel="canonical" href="https://jiviteshkumar.github.io/climate_/monitoring.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Heatwave Intelligence Platform">
+<meta property="og:title" content="IoT Automated Weather Station Network | Localized Heat Monitoring">
+<meta property="og:description" content="Live AWS telemetry and daily validation of AI heatwave forecasts against ground observations.">
+<meta property="og:url" content="https://jiviteshkumar.github.io/climate_/monitoring.html">
+<meta property="og:image" content="https://jiviteshkumar.github.io/climate_/assets/img/og-cover.svg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="sitemap" type="application/xml" href="sitemap.xml">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- Google Analytics 4 (Experiment 2) - replace G-XXXXXXXXXX with your Measurement ID -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<div class="topbar"><div class="wrap">
+  <span class="tag">Use Case KJS-CES-01 &middot; Climate, Energy &amp; Sustainability</span>
+  <span>Data partner: <a href="https://imdpune.gov.in/lrfindex.php" title="IMD Pune long range forecasting data repository" rel="noopener" target="_blank">India Meteorological Department, Pune</a></span>
+</div></div>
+
+<header class="masthead"><div class="wrap">
+  <a class="brand" href="index.html" title="Heatwave Intelligence Platform home page">
+    <svg class="mark" viewBox="0 0 48 48" role="img" aria-label="Heatwave Intelligence Platform logo">
+      <circle cx="24" cy="24" r="23" fill="#b0202e"></circle>
+      <circle cx="24" cy="24" r="8.5" fill="#ffd166"></circle>
+      <g stroke="#ffd166" stroke-width="2.6" stroke-linecap="round">
+        <path d="M24 6.5v4.5M24 37v4.5M6.5 24h4.5M37 24h4.5M11.6 11.6l3.2 3.2M33.2 33.2l3.2 3.2M36.4 11.6l-3.2 3.2M14.8 33.2l-3.2 3.2"></path>
+      </g>
+    </svg>
+    <span>
+      <span class="name">Heatwave Intelligence Platform</span><br>
+      <span class="sub">Somaiya Vidyavihar University</span>
+    </span>
+  </a>
+  <nav class="nav" aria-label="Primary navigation">
+    <a href="index.html" title="Project overview and current heat outlook">Home</a>
+    <a href="dashboard.html" title="Live region-wise heatwave watch dashboard">Heatwave Watch</a>
+    <a href="forecast.html" title="AI-driven maximum temperature forecasting models">AI Forecasting</a>
+    <a href="monitoring.html" title="IoT automated weather station network status">IoT Network</a>
+    <a href="advisories.html" title="Stakeholder-specific heatwave advisories and early warnings">Advisories</a>
+    <a href="about.html" title="About the use case, methodology and team">About</a>
+  </nav>
+</div></header>
+
+<main id="main">
+
+<div class="hero"><div class="wrap" style="padding-block:40px 34px">
+  <span class="eyebrow">Phase III &amp; IV &middot; IoT and validation</span>
+  <h1 style="font-size:clamp(27px,3.4vw,38px)">IoT Automated Weather Station network</h1>
+  <p class="lede" style="margin-bottom:0">Eight field-deployed AWS nodes across the Mumbai and Pune
+  corridor report temperature, relative humidity and wind every thirty seconds, giving the platform
+  the ground truth it needs to check a forecast before anyone acts on it.</p>
+</div></div>
+
+<section>
+  <div class="wrap">
+
+    <div class="stats" style="margin-bottom:28px">
+      <div class="stat">
+        <div class="lbl">Nodes deployed</div>
+        <div class="val">8</div>
+        <div class="foot">7 online, 1 in maintenance</div>
+      </div>
+      <div class="stat">
+        <div class="lbl">Sampling interval</div>
+        <div class="val">30<span class="unit">s</span></div>
+        <div class="foot">Aggregated to 15-minute means</div>
+      </div>
+      <div class="stat">
+        <div class="lbl">Network uptime</div>
+        <div class="val" style="color:var(--normal)">98.6<span class="unit">%</span></div>
+        <div class="foot">Rolling 30-day window</div>
+      </div>
+      <div class="stat">
+        <div class="lbl">Last sync</div>
+        <div class="val" style="font-size:24px" id="last-sync">—</div>
+        <div class="foot">Auto-refreshes every 5 s</div>
+      </div>
+    </div>
+
+    <div class="table-scroll" style="margin-bottom:28px">
+      <table>
+        <caption>Live automated weather station telemetry
+          <span class="cap-sub">Values update automatically as new readings arrive from the ingest endpoint</span>
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Node ID</th><th scope="col">Deployment site</th>
+            <th scope="col">Temp</th><th scope="col">RH</th>
+            <th scope="col">Wind (km/h)</th><th scope="col">Battery</th>
+            <th scope="col">Status</th><th scope="col">Last seen</th>
+          </tr>
+        </thead>
+        <tbody id="station-body"></tbody>
+      </table>
+    </div>
+
+    <div class="chart-card" style="margin-bottom:28px">
+      <div class="chart-head">
+        <div>
+          <h2 style="font-size:18px;margin:0">Forecast validation against ground observation</h2>
+          <p class="hint">Model output for each station location compared with the co-located AWS reading</p>
+        </div>
+      </div>
+      <div id="validation-chart"></div>
+      <div class="legend">
+        <span class="key"><span class="sw" style="background:#0b5fa5"></span>AI model forecast</span>
+        <span class="key"><span class="sw" style="background:#e2620d"></span>AWS observed</span>
+      </div>
+    </div>
+
+    <div class="stats" style="grid-template-columns:repeat(3,1fr);margin-bottom:28px">
+      <div class="stat">
+        <div class="lbl">Mean absolute error</div>
+        <div class="val"><span id="v-mae">—</span><span class="unit">°C</span></div>
+        <div class="foot">Across all eight nodes</div>
+      </div>
+      <div class="stat">
+        <div class="lbl">Root mean squared error</div>
+        <div class="val"><span id="v-rmse">—</span><span class="unit">°C</span></div>
+        <div class="foot">Penalises the large misses</div>
+      </div>
+      <div class="stat">
+        <div class="lbl">Worst single error</div>
+        <div class="val"><span id="v-max">—</span><span class="unit">°C</span></div>
+        <div class="foot">Within the acceptance band</div>
+      </div>
+    </div>
+
+    <div class="grid g-2">
+      <div class="card pad-lg">
+        <h3>Node hardware</h3>
+        <p style="color:var(--ink-2);font-size:14.5px">Each station pairs a shielded temperature and
+        humidity sensor with an anemometer and a barometric sensor, read by a low-power
+        microcontroller and published over MQTT. A solar panel and a lithium-iron cell carry the node
+        through cloudy days and overnight.</p>
+        <ul class="prose" style="font-size:14.5px">
+          <li>SHT31 temperature and relative-humidity sensor in a radiation shield</li>
+          <li>BMP280 barometric pressure and altitude sensor</li>
+          <li>Cup anemometer with reed-switch pulse counting</li>
+          <li>ESP32 controller with Wi-Fi and NB-IoT fallback</li>
+          <li>10 W solar panel with a 6600 mAh LiFePO4 pack</li>
+        </ul>
+      </div>
+      <div class="card pad-lg">
+        <h3>Telemetry payload</h3>
+        <p style="color:var(--ink-2);font-size:14.5px">Every reading carries the node identifier, a
+        timestamp, the coordinates and a battery figure, so a suspect series can be traced back to a
+        specific device and power state during quality control.</p>
+        <pre><code>{
+  "node_id"   : "AWS-PNQ-02",
+  "ts"        : "2026-09-02T11:45:00+05:30",
+  "lat"       : 18.508,
+  "lon"       : 73.926,
+  "temp_c"    : 41.2,
+  "rh_pct"    : 27,
+  "wind_kmph" : 12.1,
+  "pressure"  : 948.6,
+  "battery"   : 79,
+  "rssi"      : -68
+}</code></pre>
+        <p style="margin:0;font-size:14.5px;color:var(--ink-2)">Readings that fail a range or
+        rate-of-change check are flagged and withheld from validation rather than silently dropped.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="site"><div class="wrap">
+  <div class="f-grid">
+    <div class="f-about">
+      <h4>Heatwave Intelligence Platform</h4>
+      <p>An AI and IoT decision-support system for heatwave monitoring, prediction and early
+      warning, developed under use case KJS-CES-01.</p>
+    </div>
+    <div>
+      <h4>Platform</h4>
+      <ul>
+        <li><a href="dashboard.html" title="Region-wise heatwave watch dashboard">Heatwave Watch</a></li>
+        <li><a href="forecast.html" title="AI forecasting models and evaluation">AI Forecasting</a></li>
+        <li><a href="monitoring.html" title="IoT automated weather station network">IoT Network</a></li>
+        <li><a href="advisories.html" title="Stakeholder advisories and early warnings">Advisories</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Project</h4>
+      <ul>
+        <li><a href="about.html" title="About the use case and methodology">About the use case</a></li>
+        <li><a href="sitemap.xml" title="XML sitemap of this website">XML sitemap</a></li>
+        <li><a href="robots.txt" title="Robots exclusion file for this website">robots.txt</a></li>
+        <li><a href="https://github.com/JiviteshKumar/climate_" title="Project source code on GitHub" rel="noopener" target="_blank">Source on GitHub</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Data &amp; partners</h4>
+      <ul>
+        <li><a href="https://imdpune.gov.in/lrfindex.php" title="IMD Pune gridded data repository" rel="noopener" target="_blank">IMD Pune data archive</a></li>
+        <li><a href="https://mausam.imd.gov.in/" title="India Meteorological Department official portal" rel="noopener" target="_blank">IMD national portal</a></li>
+        <li><a href="https://ndma.gov.in/Natural-Disasters/Heat-Wave" title="NDMA heat wave guidelines" rel="noopener" target="_blank">NDMA heat wave guidance</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="f-bot">
+    <span>&copy; <span data-year>2026</span> K J Somaiya School of Engineering, Somaiya Vidyavihar University.</span>
+    <span>Demonstration platform for academic use. Operational warnings are issued only by IMD.</span>
+  </div>
+</div></footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>About the Use Case | KJS-CES-01 Climate Intelligence for Heatwaves</title>
+<meta name="description" content="Background, objectives, solution approach and technology stack of use case KJS-CES-01, a climate intelligence platform for heatwave monitoring, prediction and early warning.">
+<meta name="keywords" content="KJS-CES-01, climate intelligence use case, heatwave early warning project, Somaiya Vidyavihar University, IMD collaboration, AI use case curriculum">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Jivitesh Kumar, Department of Information Technology, KJSSE">
+<link rel="canonical" href="https://jiviteshkumar.github.io/climate_/about.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Heatwave Intelligence Platform">
+<meta property="og:title" content="About the Use Case | KJS-CES-01 Climate Intelligence for Heatwaves">
+<meta property="og:description" content="Objectives, five-phase solution approach and technology stack of the heatwave intelligence use case.">
+<meta property="og:url" content="https://jiviteshkumar.github.io/climate_/about.html">
+<meta property="og:image" content="https://jiviteshkumar.github.io/climate_/assets/img/og-cover.svg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="sitemap" type="application/xml" href="sitemap.xml">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- Google Analytics 4 (Experiment 2) - replace G-XXXXXXXXXX with your Measurement ID -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<div class="topbar"><div class="wrap">
+  <span class="tag">Use Case KJS-CES-01 &middot; Climate, Energy &amp; Sustainability</span>
+  <span>Data partner: <a href="https://imdpune.gov.in/lrfindex.php" title="IMD Pune long range forecasting data repository" rel="noopener" target="_blank">India Meteorological Department, Pune</a></span>
+</div></div>
+
+<header class="masthead"><div class="wrap">
+  <a class="brand" href="index.html" title="Heatwave Intelligence Platform home page">
+    <svg class="mark" viewBox="0 0 48 48" role="img" aria-label="Heatwave Intelligence Platform logo">
+      <circle cx="24" cy="24" r="23" fill="#b0202e"></circle>
+      <circle cx="24" cy="24" r="8.5" fill="#ffd166"></circle>
+      <g stroke="#ffd166" stroke-width="2.6" stroke-linecap="round">
+        <path d="M24 6.5v4.5M24 37v4.5M6.5 24h4.5M37 24h4.5M11.6 11.6l3.2 3.2M33.2 33.2l3.2 3.2M36.4 11.6l-3.2 3.2M14.8 33.2l-3.2 3.2"></path>
+      </g>
+    </svg>
+    <span>
+      <span class="name">Heatwave Intelligence Platform</span><br>
+      <span class="sub">Somaiya Vidyavihar University</span>
+    </span>
+  </a>
+  <nav class="nav" aria-label="Primary navigation">
+    <a href="index.html" title="Project overview and current heat outlook">Home</a>
+    <a href="dashboard.html" title="Live region-wise heatwave watch dashboard">Heatwave Watch</a>
+    <a href="forecast.html" title="AI-driven maximum temperature forecasting models">AI Forecasting</a>
+    <a href="monitoring.html" title="IoT automated weather station network status">IoT Network</a>
+    <a href="advisories.html" title="Stakeholder-specific heatwave advisories and early warnings">Advisories</a>
+    <a href="about.html" title="About the use case, methodology and team">About</a>
+  </nav>
+</div></header>
+
+<main id="main">
+
+<div class="hero"><div class="wrap" style="padding-block:40px 34px">
+  <span class="eyebrow">Use case KJS-CES-01</span>
+  <h1 style="font-size:clamp(27px,3.4vw,38px)">About this project</h1>
+  <p class="lede" style="margin-bottom:0">Climate Intelligence for Heatwave Monitoring, Prediction
+  and Early Warning, developed in the Climate, Energy and Sustainability vertical in collaboration
+  with the India Meteorological Department, Mumbai&ndash;Pune.</p>
+</div></div>
+
+<section>
+  <div class="wrap">
+    <div class="grid" style="grid-template-columns:1.5fr 1fr;gap:36px">
+      <div class="prose">
+        <h2>Background</h2>
+        <p>Heatwaves have become an increasingly serious concern in India because of rising
+        temperatures, rapid urbanisation and changing climatic conditions. Several parts of the
+        country have recently experienced prolonged extreme heat, and the diverse climatic character
+        of the subcontinent means that a single national threshold cannot describe heat stress
+        everywhere at once.</p>
+        <p>Advances in artificial intelligence and the Internet of Things create an opening.
+        AI-driven spatio-temporal analysis can surface complex temperature patterns across regions
+        and seasons, while IoT-enabled Automated Weather Stations supply the continuous localized
+        observation that a gridded model cannot provide on its own. This platform brings the two
+        together on top of the long-period IMD record.</p>
+
+        <h2>Objectives</h2>
+        <ol>
+          <li>Analyse spatio-temporal temperature patterns and heatwave behaviour through region-wise
+          and seasonal analysis of meteorological observations.</li>
+          <li>Develop AI-driven models for region-wise maximum temperature forecasting, heatwave
+          prediction, hotspot identification and severity classification.</li>
+          <li>Design and deploy IoT-enabled Automated Weather Stations for localized monitoring,
+          assessment of local heat conditions and validation of region-wise forecasts.</li>
+          <li>Develop visualization, decision-support and early warning mechanisms for effective
+          heatwave monitoring and dissemination of advisories.</li>
+        </ol>
+
+        <h2>Data</h2>
+        <p>Historical maximum-temperature observations are drawn from the India Meteorological
+        Department, Pune gridded archive published at
+        <a href="https://imdpune.gov.in/lrfindex.php" title="IMD Pune long range forecasting data repository" rel="noopener" target="_blank">imdpune.gov.in</a>.
+        The GRD files carry timestamp, latitude, longitude and maximum observed temperature, which
+        the pipeline extracts, quality-checks and segments into seven IMD homogeneous regions and
+        four IMD seasons before any model is fitted.</p>
+        <p>The figures shown across this demonstration site are representative climatological values
+        used to exercise the interface. A production deployment reads the live IMD archive and the
+        live AWS ingest stream in place of the bundled reference data.</p>
+
+        <h2>Operational challenges</h2>
+        <ul>
+          <li>Continuously retraining models on new observations without degrading forecast skill.</li>
+          <li>Choosing AWS sites that genuinely represent the region they are meant to validate.</li>
+          <li>Keeping field hardware alive through heat, monsoon, power cuts and network gaps.</li>
+          <li>Scaling to more regions, larger archives, more stations and more concurrent users.</li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="card pad-lg" style="margin-bottom:20px">
+          <h3>At a glance</h3>
+          <table style="min-width:0;font-size:14px">
+            <tbody>
+              <tr><td style="color:var(--ink-3)">Use case ID</td><td style="font-weight:650">KJS-CES-01</td></tr>
+              <tr><td style="color:var(--ink-3)">Vertical</td><td style="font-weight:650">Climate, Energy &amp; Sustainability</td></tr>
+              <tr><td style="color:var(--ink-3)">Partner</td><td style="font-weight:650">IMD, Mumbai&ndash;Pune</td></tr>
+              <tr><td style="color:var(--ink-3)">Institute</td><td style="font-weight:650">KJSSE, Somaiya Vidyavihar University</td></tr>
+              <tr><td style="color:var(--ink-3)">Programme</td><td style="font-weight:650">Information Technology</td></tr>
+              <tr><td style="color:var(--ink-3)">Faculty owner</td><td style="font-weight:650">Dr. Radhika Kotecha</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card pad-lg">
+          <h3>Technology stack</h3>
+          <ul class="prose" style="font-size:14.5px;margin-bottom:0">
+            <li>HTML5, CSS3 and dependency-free JavaScript for the front end</li>
+            <li>Hand-built SVG rendering for every chart and the schematic map</li>
+            <li>Python, NumPy, pandas and xarray for GRD ingestion and cleaning</li>
+            <li>TensorFlow and XGBoost for the forecasting ensemble</li>
+            <li>MQTT ingestion from ESP32-based Automated Weather Stations</li>
+            <li>Hosted as a static site on GitHub Pages</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tint">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Governance</p>
+      <h2>Responsible use of an AI warning system</h2>
+      <p>A heat warning is a public-safety artefact. The governance posture is part of the design,
+      not a disclaimer bolted on at the end.</p>
+    </div>
+    <div class="grid g-3">
+      <article class="card">
+        <h3>Trustworthiness</h3>
+        <p style="font-size:14.5px;color:var(--ink-2)">Models are hardened against noisy, incomplete
+        and erroneous input, and every forecast is scored against ground observation before it can
+        support an advisory.</p>
+      </article>
+      <article class="card">
+        <h3>Transparency</h3>
+        <p style="font-size:14.5px;color:var(--ink-2)">Severity thresholds, model metrics and the
+        forecast identifier behind each advisory are published rather than hidden, and uncertainty is
+        communicated instead of being rounded away.</p>
+      </article>
+      <article class="card">
+        <h3>Human oversight</h3>
+        <p style="font-size:14.5px;color:var(--ink-2)">Meteorologists and authorised stakeholders
+        review, validate and approve critical forecasts and warnings before dissemination. No
+        advisory is published automatically.</p>
+      </article>
+      <article class="card">
+        <h3>Data protection</h3>
+        <p style="font-size:14.5px;color:var(--ink-2)">Meteorological observations, station
+        telemetry, system logs and operational records are stored with controlled access and a clear
+        retention policy.</p>
+      </article>
+      <article class="card">
+        <h3>Factual grounding</h3>
+        <p style="font-size:14.5px;color:var(--ink-2)">The language model may only restate values
+        supplied in the structured forecast record, and drafts that introduce unsupported figures are
+        rejected before review.</p>
+      </article>
+      <article class="card">
+        <h3>Regulatory alignment</h3>
+        <p style="font-size:14.5px;color:var(--ink-2)">Dissemination follows applicable guidance on
+        weather information, and the platform defers to IMD as the sole authority for operational
+        warnings in India.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="grid g-2">
+      <div class="prose">
+        <h2>Project and author</h2>
+        <p>This platform was built as the practical component of the Digital Marketing laboratory,
+        Semester VII, Department of Information Technology, K J Somaiya School of Engineering, and
+        as a working front end for use case KJS-CES-01.</p>
+        <table style="min-width:0;font-size:14.5px">
+          <tbody>
+            <tr><td style="color:var(--ink-3)">Student</td><td style="font-weight:650">Jivitesh Kumar</td></tr>
+            <tr><td style="color:var(--ink-3)">Roll number</td><td style="font-weight:650">16010423041</td></tr>
+            <tr><td style="color:var(--ink-3)">Batch</td><td style="font-weight:650">A2</td></tr>
+            <tr><td style="color:var(--ink-3)">Programme</td><td style="font-weight:650">B.Tech Information Technology, Semester VII</td></tr>
+            <tr><td style="color:var(--ink-3)">Academic year</td><td style="font-weight:650">2026&ndash;27</td></tr>
+            <tr><td style="color:var(--ink-3)">Repository</td><td><a href="https://github.com/JiviteshKumar/climate_" title="Project source code on GitHub" rel="noopener" target="_blank">github.com/JiviteshKumar/climate_</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card pad-lg">
+        <h3>Explore the platform</h3>
+        <p style="font-size:14.5px;color:var(--ink-2)">Each section of the site maps to one phase of
+        the conceptual schema.</p>
+        <ul class="prose" style="font-size:14.5px;margin-bottom:0">
+          <li><a href="dashboard.html" title="Region-wise heatwave severity and hotspot map">Heatwave Watch</a> &mdash; current severity, hotspots and exposure</li>
+          <li><a href="forecast.html" title="AI models, seasonal analysis and evaluation">AI Forecasting</a> &mdash; models, seasonal analysis and scores</li>
+          <li><a href="monitoring.html" title="IoT station telemetry and forecast validation">IoT Network</a> &mdash; station telemetry and validation</li>
+          <li><a href="advisories.html" title="Stakeholder-specific advisories and dissemination">Advisories</a> &mdash; audience-specific warnings</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site"><div class="wrap">
+  <div class="f-grid">
+    <div class="f-about">
+      <h4>Heatwave Intelligence Platform</h4>
+      <p>An AI and IoT decision-support system for heatwave monitoring, prediction and early
+      warning, developed under use case KJS-CES-01.</p>
+    </div>
+    <div>
+      <h4>Platform</h4>
+      <ul>
+        <li><a href="dashboard.html" title="Region-wise heatwave watch dashboard">Heatwave Watch</a></li>
+        <li><a href="forecast.html" title="AI forecasting models and evaluation">AI Forecasting</a></li>
+        <li><a href="monitoring.html" title="IoT automated weather station network">IoT Network</a></li>
+        <li><a href="advisories.html" title="Stakeholder advisories and early warnings">Advisories</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Project</h4>
+      <ul>
+        <li><a href="about.html" title="About the use case and methodology">About the use case</a></li>
+        <li><a href="sitemap.xml" title="XML sitemap of this website">XML sitemap</a></li>
+        <li><a href="robots.txt" title="Robots exclusion file for this website">robots.txt</a></li>
+        <li><a href="https://github.com/JiviteshKumar/climate_" title="Project source code on GitHub" rel="noopener" target="_blank">Source on GitHub</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Data &amp; partners</h4>
+      <ul>
+        <li><a href="https://imdpune.gov.in/lrfindex.php" title="IMD Pune gridded data repository" rel="noopener" target="_blank">IMD Pune data archive</a></li>
+        <li><a href="https://mausam.imd.gov.in/" title="India Meteorological Department official portal" rel="noopener" target="_blank">IMD national portal</a></li>
+        <li><a href="https://ndma.gov.in/Natural-Disasters/Heat-Wave" title="NDMA heat wave guidelines" rel="noopener" target="_blank">NDMA heat wave guidance</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="f-bot">
+    <span>&copy; <span data-year>2026</span> K J Somaiya School of Engineering, Somaiya Vidyavihar University.</span>
+    <span>Demonstration platform for academic use. Operational warnings are issued only by IMD.</span>
+  </div>
+</div></footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

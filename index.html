@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- ===== On-page SEO: title, description, keywords, robots, canonical ===== -->
+<title>Heatwave Intelligence Platform | AI Heatwave Prediction and Early Warning for India</title>
+<meta name="description" content="AI-driven heatwave monitoring, prediction and early warning platform for India, combining IMD meteorological data with IoT automated weather stations.">
+<meta name="keywords" content="heatwave prediction, heatwave early warning system, AI climate intelligence, IMD temperature data, IoT automated weather station, heat wave India, extreme heat monitoring">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Jivitesh Kumar, Department of Information Technology, KJSSE">
+<link rel="canonical" href="https://jiviteshkumar.github.io/climate_/index.html">
+
+<!-- ===== Social / Open Graph ===== -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Heatwave Intelligence Platform">
+<meta property="og:title" content="Heatwave Intelligence Platform | AI Heatwave Early Warning for India">
+<meta property="og:description" content="Region-wise heatwave forecasting, IoT weather monitoring and LLM-assisted advisories built on IMD meteorological observations.">
+<meta property="og:url" content="https://jiviteshkumar.github.io/climate_/index.html">
+<meta property="og:image" content="https://jiviteshkumar.github.io/climate_/assets/img/og-cover.svg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="sitemap" type="application/xml" href="sitemap.xml">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- ===== Google Analytics 4 (Experiment 2) =====
+     Replace G-XXXXXXXXXX with the Measurement ID of your GA4 data stream. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"Heatwave Intelligence Platform",
+  "url":"https://jiviteshkumar.github.io/climate_/",
+  "description":"AI-driven heatwave monitoring, prediction and early warning platform for India.",
+  "publisher":{"@type":"CollegeOrUniversity","name":"Somaiya Vidyavihar University"}
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<div class="topbar"><div class="wrap">
+  <span class="tag">Use Case KJS-CES-01 &middot; Climate, Energy &amp; Sustainability</span>
+  <span>Data partner: <a href="https://imdpune.gov.in/lrfindex.php" title="IMD Pune long range forecasting data repository" rel="noopener" target="_blank">India Meteorological Department, Pune</a></span>
+</div></div>
+
+<header class="masthead"><div class="wrap">
+  <a class="brand" href="index.html" title="Heatwave Intelligence Platform home page">
+    <svg class="mark" viewBox="0 0 48 48" role="img" aria-label="Heatwave Intelligence Platform logo">
+      <circle cx="24" cy="24" r="23" fill="#b0202e"></circle>
+      <circle cx="24" cy="24" r="8.5" fill="#ffd166"></circle>
+      <g stroke="#ffd166" stroke-width="2.6" stroke-linecap="round">
+        <path d="M24 6.5v4.5M24 37v4.5M6.5 24h4.5M37 24h4.5M11.6 11.6l3.2 3.2M33.2 33.2l3.2 3.2M36.4 11.6l-3.2 3.2M14.8 33.2l-3.2 3.2"></path>
+      </g>
+    </svg>
+    <span>
+      <span class="name">Heatwave Intelligence Platform</span><br>
+      <span class="sub">Somaiya Vidyavihar University</span>
+    </span>
+  </a>
+  <nav class="nav" aria-label="Primary navigation">
+    <a href="index.html" title="Project overview and current heat outlook">Home</a>
+    <a href="dashboard.html" title="Live region-wise heatwave watch dashboard">Heatwave Watch</a>
+    <a href="forecast.html" title="AI-driven maximum temperature forecasting models">AI Forecasting</a>
+    <a href="monitoring.html" title="IoT automated weather station network status">IoT Network</a>
+    <a href="advisories.html" title="Stakeholder-specific heatwave advisories and early warnings">Advisories</a>
+    <a href="about.html" title="About the use case, methodology and team">About</a>
+  </nav>
+</div></header>
+
+<main id="main">
+
+<div class="hero"><div class="wrap">
+  <div class="hero-grid">
+    <div>
+      <span class="eyebrow">AI &middot; IoT &middot; Climate Resilience</span>
+      <h1>Heatwave intelligence for a warming India</h1>
+      <p class="lede">A decision-support platform that turns long-period India Meteorological
+      Department observations and live IoT weather-station telemetry into region-wise heatwave
+      forecasts, hotspot maps and stakeholder-ready early warnings.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="dashboard.html" title="Open the live heatwave watch dashboard">
+          Open the Heatwave Watch
+        </a>
+        <a class="btn btn-ghost" href="about.html" title="Read about the solution approach and methodology">
+          How it works
+        </a>
+      </div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-head">
+        <div>
+          <h2 style="font-size:18px;margin:0">Current regional outlook</h2>
+          <p class="hint">Forecast maximum temperature, seven IMD homogeneous regions</p>
+        </div>
+      </div>
+      <div id="home-bars"></div>
+      <div class="legend">
+        <span class="key"><span class="sw" style="background:#12805c"></span>Normal</span>
+        <span class="key"><span class="sw" style="background:#c98a04"></span>Caution</span>
+        <span class="key"><span class="sw" style="background:#e2620d"></span>Heat Wave</span>
+        <span class="key"><span class="sw" style="background:#c0341c"></span>Severe Heat Wave</span>
+      </div>
+    </div>
+  </div>
+</div></div>
+
+<section>
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat">
+        <div class="lbl">Regions monitored</div>
+        <div class="val">7</div>
+        <div class="foot">IMD homogeneous regions</div>
+      </div>
+      <div class="stat">
+        <div class="lbl">Active heat alerts</div>
+        <div class="val" id="alert-count" style="color:var(--severe)">4</div>
+        <div class="foot">Heat wave grade or above</div>
+      </div>
+      <div class="stat">
+        <div class="lbl">Hotspots flagged</div>
+        <div class="val" id="hotspot-count">15</div>
+        <div class="foot">Getis-Ord Gi* clusters</div>
+      </div>
+      <div class="stat">
+        <div class="lbl">AWS nodes deployed</div>
+        <div class="val">8</div>
+        <div class="foot">Mumbai &amp; Pune corridor</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tint">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">The problem</p>
+      <h2>Heat is now the most under-warned extreme in India</h2>
+      <p>Heatwave frequency, intensity and duration have all risen across the subcontinent, yet
+      severity varies sharply between regions because of local weather characteristics and
+      environmental factors. Coarse, nationwide bulletins do not reach the district officer, the
+      farmer or the hospital duty roster in a form they can act on.</p>
+    </div>
+    <div class="grid g-3">
+      <article class="card">
+        <div class="ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3v13"></path><circle cx="12" cy="19" r="3"></circle><path d="M9 6h6"></path></svg>
+        </div>
+        <h3>Region-specific variation</h3>
+        <p>The same absolute temperature means very different things in the Hilly Region and in
+        Interior Peninsula. Severity must be graded against a local long-period normal, not a
+        national threshold.</p>
+      </article>
+      <article class="card">
+        <div class="ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12h4l3-8 4 16 3-8h4"></path></svg>
+        </div>
+        <h3>Sparse ground truth</h3>
+        <p>Gridded model output needs validation against real observations. Without dense local
+        measurement, a forecast cannot be checked before an advisory is issued on it.</p>
+      </article>
+      <article class="card">
+        <div class="ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+        </div>
+        <h3>Last-mile translation</h3>
+        <p>A departure of +5.5 °C is meaningless to a citizen. Technical forecasts have to be
+        rewritten for each audience, quickly, and in a form that survives review.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Solution approach</p>
+      <h2>Five interlocking phases, from raw GRD files to a district advisory</h2>
+      <p>The platform implements the conceptual schema of Use Case KJS-CES-01 end to end.</p>
+    </div>
+    <div class="phases">
+      <article class="phase">
+        <p class="phase-no">PHASE I</p>
+        <h3 style="font-size:16px">Data acquisition</h3>
+        <p style="font-size:14px;color:var(--ink-2);margin:0">IMD gridded maximum-temperature GRD
+        archives are ingested, quality-checked, cleaned and stored region-wise.</p>
+      </article>
+      <article class="phase">
+        <p class="phase-no">PHASE II</p>
+        <h3 style="font-size:16px">AI analytics</h3>
+        <p style="font-size:14px;color:var(--ink-2);margin:0">Spatio-temporal models forecast Tmax,
+        predict heatwave onset, identify hotspots and classify severity.</p>
+      </article>
+      <article class="phase">
+        <p class="phase-no">PHASE III</p>
+        <h3 style="font-size:16px">IoT monitoring</h3>
+        <p style="font-size:14px;color:var(--ink-2);margin:0">Automated Weather Stations stream
+        localized temperature, humidity and wind observations continuously.</p>
+      </article>
+      <article class="phase">
+        <p class="phase-no">PHASE IV</p>
+        <h3 style="font-size:16px">Validation</h3>
+        <p style="font-size:14px;color:var(--ink-2);margin:0">Ground observations are matched against
+        model output to score and correct region-wise forecasts.</p>
+      </article>
+      <article class="phase">
+        <p class="phase-no">PHASE V</p>
+        <h3 style="font-size:16px">Advisory &amp; warning</h3>
+        <p style="font-size:14px;color:var(--ink-2);margin:0">Dashboards visualise the picture and an
+        LLM drafts audience-specific advisories for expert review.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="tint">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Who it serves</p>
+      <h2>Built around the people who have to act on the warning</h2>
+    </div>
+    <div class="grid g-4">
+      <article class="card">
+        <h3>Disaster management</h3>
+        <p style="font-size:14.5px;color:var(--ink-2)">State authorities get lead time, hotspot maps
+        and exposed-population estimates to pre-position relief.</p>
+      </article>
+      <article class="card">
+        <h3>Municipal corporations</h3>
+        <p style="font-size:14.5px;color:var(--ink-2)">Ward-level triggers for opening cooling
+        centres, water kiosks and revised labour timings.</p>
+      </article>
+      <article class="card">
+        <h3>Health departments</h3>
+        <p style="font-size:14.5px;color:var(--ink-2)">Advance notice to staff heat-stroke corners
+        and to begin heat-illness surveillance reporting.</p>
+      </article>
+      <article class="card">
+        <h3>Agriculture &amp; citizens</h3>
+        <p style="font-size:14.5px;color:var(--ink-2)">Crop and livestock protection guidance, and
+        plain-language safety advice in the local idiom.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap" style="text-align:center">
+    <h2>See the current heatwave picture</h2>
+    <p style="color:var(--ink-2);max-width:56ch;margin:0 auto 24px">The watch dashboard carries the
+    live region-wise severity grading, the hotspot map and the exposed-population estimate.</p>
+    <div class="cta-row" style="justify-content:center">
+      <a class="btn btn-primary" href="dashboard.html" title="Open the heatwave watch dashboard">Open dashboard</a>
+      <a class="btn btn-ghost" href="advisories.html" title="Read the current heatwave advisories">Read advisories</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site"><div class="wrap">
+  <div class="f-grid">
+    <div class="f-about">
+      <h4>Heatwave Intelligence Platform</h4>
+      <p>An AI and IoT decision-support system for heatwave monitoring, prediction and early
+      warning, developed under use case KJS-CES-01.</p>
+    </div>
+    <div>
+      <h4>Platform</h4>
+      <ul>
+        <li><a href="dashboard.html" title="Region-wise heatwave watch dashboard">Heatwave Watch</a></li>
+        <li><a href="forecast.html" title="AI forecasting models and evaluation">AI Forecasting</a></li>
+        <li><a href="monitoring.html" title="IoT automated weather station network">IoT Network</a></li>
+        <li><a href="advisories.html" title="Stakeholder advisories and early warnings">Advisories</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Project</h4>
+      <ul>
+        <li><a href="about.html" title="About the use case and methodology">About the use case</a></li>
+        <li><a href="sitemap.xml" title="XML sitemap of this website">XML sitemap</a></li>
+        <li><a href="robots.txt" title="Robots exclusion file for this website">robots.txt</a></li>
+        <li><a href="https://github.com/JiviteshKumar/climate_" title="Project source code on GitHub" rel="noopener" target="_blank">Source on GitHub</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Data &amp; partners</h4>
+      <ul>
+        <li><a href="https://imdpune.gov.in/lrfindex.php" title="IMD Pune gridded data repository" rel="noopener" target="_blank">IMD Pune data archive</a></li>
+        <li><a href="https://mausam.imd.gov.in/" title="India Meteorological Department official portal" rel="noopener" target="_blank">IMD national portal</a></li>
+        <li><a href="https://ndma.gov.in/Natural-Disasters/Heat-Wave" title="NDMA heat wave guidelines" rel="noopener" target="_blank">NDMA heat wave guidance</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="f-bot">
+    <span>&copy; <span data-year>2026</span> K J Somaiya School of Engineering, Somaiya Vidyavihar University.</span>
+    <span>Demonstration platform for academic use. Operational warnings are issued only by IMD.</span>
+  </div>
+</div></footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

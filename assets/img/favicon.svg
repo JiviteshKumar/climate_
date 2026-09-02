@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Heatwave Intelligence Platform">
+  <circle cx="24" cy="24" r="24" fill="#b0202e"/>
+  <circle cx="24" cy="24" r="8.5" fill="#ffd166"/>
+  <g stroke="#ffd166" stroke-width="2.8" stroke-linecap="round">
+    <path d="M24 6.5v4.5M24 37v4.5M6.5 24h4.5M37 24h4.5M11.6 11.6l3.2 3.2M33.2 33.2l3.2 3.2M36.4 11.6l-3.2 3.2M14.8 33.2l-3.2 3.2"/>
+  </g>
+</svg>

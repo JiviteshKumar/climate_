@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Heatwave Intelligence Platform cover image">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#3b1418"/>
+    </linearGradient>
+    <linearGradient id="heat" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0b5fa5"/>
+      <stop offset="0.45" stop-color="#c98a04"/>
+      <stop offset="0.75" stop-color="#e2620d"/>
+      <stop offset="1" stop-color="#c0341c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1010" cy="150" r="150" fill="#b0202e" opacity="0.22"/>
+  <circle cx="1010" cy="150" r="58" fill="#ffd166" opacity="0.9"/>
+  <text x="80" y="196" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="700"
+        letter-spacing="4" fill="#ffb4a2">USE CASE KJS-CES-01</text>
+  <text x="80" y="290" font-family="Segoe UI,Arial,sans-serif" font-size="72" font-weight="800" fill="#ffffff">Heatwave</text>
+  <text x="80" y="372" font-family="Segoe UI,Arial,sans-serif" font-size="72" font-weight="800" fill="#ffffff">Intelligence Platform</text>
+  <text x="80" y="438" font-family="Segoe UI,Arial,sans-serif" font-size="27" fill="#cbd5e1">AI forecasting, IoT weather monitoring and early warning for India</text>
+  <rect x="80" y="486" width="1040" height="12" rx="6" fill="url(#heat)"/>
+  <text x="80" y="556" font-family="Segoe UI,Arial,sans-serif" font-size="22" fill="#94a3b8">Somaiya Vidyavihar University &#183; K J Somaiya School of Engineering</text>
+</svg>
