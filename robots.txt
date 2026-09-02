@@ -12,17 +12,17 @@
 
 # All crawlers may index the whole platform.
 User-agent: *
-Allow: /climate_/
 Disallow: /climate_/404.html
+Allow: /climate_/
 
 # Explicit directives for the two major crawlers.
 User-agent: Googlebot
-Allow: /climate_/
 Disallow: /climate_/404.html
+Allow: /climate_/
 
 User-agent: Bingbot
-Allow: /climate_/
 Disallow: /climate_/404.html
+Allow: /climate_/
 
 # Reference to the XML sitemap for complete URL discovery.
 Sitemap: https://jiviteshkumar.github.io/climate_/sitemap.xml
