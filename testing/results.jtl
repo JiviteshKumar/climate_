@@ -1,0 +1,361 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1788463535420,325,01 Home,200,OK,Citizens Browsing the Platform 1-2,text,true,,15829,212,3,3,https://jiviteshkumar.github.io/climate_/index.html,318,0,107
+1788463535025,720,01 Home,200,OK,Citizens Browsing the Platform 1-1,text,true,,15830,212,3,3,https://jiviteshkumar.github.io/climate_/index.html,713,0,421
+1788463535920,181,01 Home,200,OK,Citizens Browsing the Platform 1-3,text,true,,15827,212,3,3,https://jiviteshkumar.github.io/climate_/index.html,174,0,117
+1788463536051,280,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-2,text,true,,12103,216,4,4,https://jiviteshkumar.github.io/climate_/dashboard.html,271,0,0
+1788463536050,302,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-1,text,true,,12104,216,4,4,https://jiviteshkumar.github.io/climate_/dashboard.html,272,0,0
+1788463536402,64,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-3,text,true,,12101,216,4,4,https://jiviteshkumar.github.io/climate_/dashboard.html,59,0,0
+1788463536418,146,01 Home,200,OK,Citizens Browsing the Platform 1-4,text,true,,15827,212,4,4,https://jiviteshkumar.github.io/climate_/index.html,140,0,93
+1788463536767,140,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-3,text,true,,13632,215,5,5,https://jiviteshkumar.github.io/climate_/forecast.html,135,0,0
+1788463536632,275,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-2,text,true,,13634,215,5,5,https://jiviteshkumar.github.io/climate_/forecast.html,270,0,0
+1788463536653,263,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-1,text,true,,13633,215,5,5,https://jiviteshkumar.github.io/climate_/forecast.html,249,0,0
+1788463536881,61,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-4,text,true,,12101,216,5,5,https://jiviteshkumar.github.io/climate_/dashboard.html,56,0,0
+1788463536929,147,01 Home,200,OK,Citizens Browsing the Platform 1-5,text,true,,15827,212,5,5,https://jiviteshkumar.github.io/climate_/index.html,143,0,94
+1788463537254,58,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-4,text,true,,13631,215,6,6,https://jiviteshkumar.github.io/climate_/forecast.html,52,0,0
+1788463537378,59,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-5,text,true,,12101,216,6,6,https://jiviteshkumar.github.io/climate_/dashboard.html,54,0,0
+1788463537223,275,04 IoT Network,200,OK,Citizens Browsing the Platform 1-2,text,true,,12195,217,6,6,https://jiviteshkumar.github.io/climate_/monitoring.html,269,0,0
+1788463537223,276,04 IoT Network,200,OK,Citizens Browsing the Platform 1-3,text,true,,12194,217,6,6,https://jiviteshkumar.github.io/climate_/monitoring.html,269,0,0
+1788463537223,277,04 IoT Network,200,OK,Citizens Browsing the Platform 1-1,text,true,,12194,217,6,6,https://jiviteshkumar.github.io/climate_/monitoring.html,269,0,0
+1788463537427,144,01 Home,200,OK,Citizens Browsing the Platform 1-6,text,true,,15827,212,6,6,https://jiviteshkumar.github.io/climate_/index.html,143,0,93
+1788463537629,60,04 IoT Network,200,OK,Citizens Browsing the Platform 1-4,text,true,,12192,217,7,7,https://jiviteshkumar.github.io/climate_/monitoring.html,49,0,0
+1788463537753,64,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-5,text,true,,13631,215,7,7,https://jiviteshkumar.github.io/climate_/forecast.html,57,0,0
+1788463537877,60,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-6,text,true,,12101,216,7,7,https://jiviteshkumar.github.io/climate_/dashboard.html,52,0,0
+1788463537925,149,01 Home,200,OK,Citizens Browsing the Platform 1-7,text,true,,15827,212,7,7,https://jiviteshkumar.github.io/climate_/index.html,146,0,100
+1788463537815,285,05 Advisories,200,OK,Citizens Browsing the Platform 1-1,text,true,,11846,217,7,7,https://jiviteshkumar.github.io/climate_/advisories.html,284,0,0
+1788463537815,285,05 Advisories,200,OK,Citizens Browsing the Platform 1-3,text,true,,11847,217,7,7,https://jiviteshkumar.github.io/climate_/advisories.html,284,0,0
+1788463538001,99,05 Advisories,200,OK,Citizens Browsing the Platform 1-4,text,true,,11845,217,7,7,https://jiviteshkumar.github.io/climate_/advisories.html,98,0,0
+1788463537815,285,05 Advisories,200,OK,Citizens Browsing the Platform 1-2,text,true,,11846,217,7,7,https://jiviteshkumar.github.io/climate_/advisories.html,284,0,0
+1788463538124,62,04 IoT Network,200,OK,Citizens Browsing the Platform 1-5,text,true,,12192,217,8,8,https://jiviteshkumar.github.io/climate_/monitoring.html,62,0,0
+1788463538248,56,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-6,text,true,,13631,215,8,8,https://jiviteshkumar.github.io/climate_/forecast.html,50,0,0
+1788463538391,58,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-7,text,true,,12101,216,8,8,https://jiviteshkumar.github.io/climate_/dashboard.html,51,0,0
+1788463538499,58,05 Advisories,200,OK,Citizens Browsing the Platform 1-5,text,true,,11844,217,8,8,https://jiviteshkumar.github.io/climate_/advisories.html,58,0,0
+1788463538437,146,01 Home,200,OK,Citizens Browsing the Platform 1-8,text,true,,15827,212,8,8,https://jiviteshkumar.github.io/climate_/index.html,142,0,95
+1788463538610,54,04 IoT Network,200,OK,Citizens Browsing the Platform 1-6,text,true,,12192,217,9,9,https://jiviteshkumar.github.io/climate_/monitoring.html,51,0,0
+1788463538406,303,06 About,200,OK,Citizens Browsing the Platform 1-4,text,true,,16710,212,9,9,https://jiviteshkumar.github.io/climate_/about.html,303,0,0
+1788463538406,305,06 About,200,OK,Citizens Browsing the Platform 1-3,text,true,,16709,212,9,9,https://jiviteshkumar.github.io/climate_/about.html,305,0,0
+1788463538406,305,06 About,200,OK,Citizens Browsing the Platform 1-1,text,true,,16709,212,9,9,https://jiviteshkumar.github.io/climate_/about.html,305,0,0
+1788463538406,305,06 About,200,OK,Citizens Browsing the Platform 1-2,text,true,,16709,212,9,9,https://jiviteshkumar.github.io/climate_/about.html,305,0,0
+1788463538764,63,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-7,text,true,,13631,215,9,9,https://jiviteshkumar.github.io/climate_/forecast.html,57,0,0
+1788463538886,55,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-8,text,true,,12101,216,9,9,https://jiviteshkumar.github.io/climate_/dashboard.html,50,0,0
+1788463538872,69,06 About,200,OK,Citizens Browsing the Platform 1-5,text,true,,16707,212,9,9,https://jiviteshkumar.github.io/climate_/about.html,69,0,0
+1788463538979,60,05 Advisories,200,OK,Citizens Browsing the Platform 1-6,text,true,,11844,217,9,9,https://jiviteshkumar.github.io/climate_/advisories.html,60,0,0
+1788463539027,63,01 Home,200,OK,Citizens Browsing the Platform 1-3,text,true,,15827,212,9,9,https://jiviteshkumar.github.io/climate_/index.html,63,0,0
+1788463539027,63,01 Home,200,OK,Citizens Browsing the Platform 1-2,text,true,,15827,212,9,9,https://jiviteshkumar.github.io/climate_/index.html,63,0,0
+1788463539026,64,01 Home,200,OK,Citizens Browsing the Platform 1-4,text,true,,15827,212,9,9,https://jiviteshkumar.github.io/climate_/index.html,64,0,0
+1788463539026,64,01 Home,200,OK,Citizens Browsing the Platform 1-1,text,true,,15827,212,9,9,https://jiviteshkumar.github.io/climate_/index.html,64,0,0
+1788463538933,163,01 Home,200,OK,Citizens Browsing the Platform 1-9,text,true,,15827,212,9,9,https://jiviteshkumar.github.io/climate_/index.html,161,0,109
+1788463539135,56,04 IoT Network,200,OK,Citizens Browsing the Platform 1-7,text,true,,12192,217,10,10,https://jiviteshkumar.github.io/climate_/monitoring.html,53,0,0
+1788463539244,62,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-8,text,true,,13631,215,10,10,https://jiviteshkumar.github.io/climate_/forecast.html,56,0,0
+1788463539244,62,01 Home,200,OK,Citizens Browsing the Platform 1-5,text,true,,15827,212,10,10,https://jiviteshkumar.github.io/climate_/index.html,62,0,0
+1788463539355,62,06 About,200,OK,Citizens Browsing the Platform 1-6,text,true,,16707,212,10,10,https://jiviteshkumar.github.io/climate_/about.html,62,0,0
+1788463539402,55,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-4,text,true,,12101,216,10,10,https://jiviteshkumar.github.io/climate_/dashboard.html,55,0,0
+1788463539402,57,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-2,text,true,,12101,216,10,10,https://jiviteshkumar.github.io/climate_/dashboard.html,56,0,0
+1788463539401,58,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-1,text,true,,12101,216,10,10,https://jiviteshkumar.github.io/climate_/dashboard.html,58,0,0
+1788463539401,58,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-3,text,true,,12101,216,10,10,https://jiviteshkumar.github.io/climate_/dashboard.html,58,0,0
+1788463539401,60,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-9,text,true,,12101,216,10,10,https://jiviteshkumar.github.io/climate_/dashboard.html,56,0,0
+1788463539495,56,05 Advisories,200,OK,Citizens Browsing the Platform 1-7,text,true,,11844,217,10,10,https://jiviteshkumar.github.io/climate_/advisories.html,56,0,0
+1788463539433,162,01 Home,200,OK,Citizens Browsing the Platform 1-10,text,true,,15827,212,10,10,https://jiviteshkumar.github.io/climate_/index.html,160,0,109
+1788463539621,61,04 IoT Network,200,OK,Citizens Browsing the Platform 1-8,text,true,,12192,217,11,11,https://jiviteshkumar.github.io/climate_/monitoring.html,54,0,0
+1788463539621,61,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-5,text,true,,12101,216,11,11,https://jiviteshkumar.github.io/climate_/dashboard.html,61,0,0
+1788463539730,56,01 Home,200,OK,Citizens Browsing the Platform 1-6,text,true,,15827,212,11,11,https://jiviteshkumar.github.io/climate_/index.html,56,0,0
+1788463539760,54,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-4,text,true,,13631,215,11,11,https://jiviteshkumar.github.io/climate_/forecast.html,54,0,0
+1788463539759,58,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-2,text,true,,13631,215,11,11,https://jiviteshkumar.github.io/climate_/forecast.html,58,0,0
+1788463539776,63,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-1,text,true,,13631,215,11,11,https://jiviteshkumar.github.io/climate_/forecast.html,63,0,0
+1788463539776,63,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-3,text,true,,13631,215,11,11,https://jiviteshkumar.github.io/climate_/forecast.html,63,0,0
+1788463539775,65,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-9,text,true,,13631,215,11,11,https://jiviteshkumar.github.io/climate_/forecast.html,57,0,0
+1788463539853,68,06 About,200,OK,Citizens Browsing the Platform 1-7,text,true,,16707,212,11,11,https://jiviteshkumar.github.io/climate_/about.html,67,0,0
+1788463539901,55,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-10,text,true,,12101,216,11,11,https://jiviteshkumar.github.io/climate_/dashboard.html,50,0,0
+1788463539994,62,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-5,text,true,,13631,215,11,11,https://jiviteshkumar.github.io/climate_/forecast.html,62,0,0
+1788463539994,62,05 Advisories,200,OK,Citizens Browsing the Platform 1-8,text,true,,11844,217,11,11,https://jiviteshkumar.github.io/climate_/advisories.html,62,0,0
+1788463539939,149,01 Home,200,OK,Citizens Browsing the Platform 1-11,text,true,,15827,212,11,11,https://jiviteshkumar.github.io/climate_/index.html,144,0,94
+1788463540088,60,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-6,text,true,,12101,216,12,12,https://jiviteshkumar.github.io/climate_/dashboard.html,60,0,0
+1788463540120,59,04 IoT Network,200,OK,Citizens Browsing the Platform 1-4,text,true,,12192,217,12,12,https://jiviteshkumar.github.io/climate_/monitoring.html,59,0,0
+1788463540120,60,04 IoT Network,200,OK,Citizens Browsing the Platform 1-2,text,true,,12192,217,12,12,https://jiviteshkumar.github.io/climate_/monitoring.html,60,0,0
+1788463540150,58,04 IoT Network,200,OK,Citizens Browsing the Platform 1-3,text,true,,12192,217,12,12,https://jiviteshkumar.github.io/climate_/monitoring.html,58,0,0
+1788463540151,60,04 IoT Network,200,OK,Citizens Browsing the Platform 1-1,text,true,,12192,217,12,12,https://jiviteshkumar.github.io/climate_/monitoring.html,60,0,0
+1788463540150,62,04 IoT Network,200,OK,Citizens Browsing the Platform 1-9,text,true,,12192,217,12,12,https://jiviteshkumar.github.io/climate_/monitoring.html,55,0,0
+1788463540227,61,01 Home,200,OK,Citizens Browsing the Platform 1-7,text,true,,15827,212,12,12,https://jiviteshkumar.github.io/climate_/index.html,61,0,0
+1788463540273,69,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-10,text,true,,13631,215,12,12,https://jiviteshkumar.github.io/climate_/forecast.html,58,0,0
+1788463540366,69,04 IoT Network,200,OK,Citizens Browsing the Platform 1-5,text,true,,12192,217,12,12,https://jiviteshkumar.github.io/climate_/monitoring.html,69,0,0
+1788463540366,69,06 About,200,OK,Citizens Browsing the Platform 1-8,text,true,,16707,212,12,12,https://jiviteshkumar.github.io/climate_/about.html,69,0,0
+1788463540397,66,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-11,text,true,,12101,216,12,12,https://jiviteshkumar.github.io/climate_/dashboard.html,63,0,0
+1788463540460,55,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-6,text,true,,13631,215,12,12,https://jiviteshkumar.github.io/climate_/forecast.html,55,0,0
+1788463540492,51,05 Advisories,200,OK,Citizens Browsing the Platform 1-4,text,true,,11844,217,12,12,https://jiviteshkumar.github.io/climate_/advisories.html,51,0,0
+1788463540492,54,05 Advisories,200,OK,Citizens Browsing the Platform 1-2,text,true,,11844,217,12,12,https://jiviteshkumar.github.io/climate_/advisories.html,54,0,0
+1788463540522,60,05 Advisories,200,OK,Citizens Browsing the Platform 1-1,text,true,,11844,217,12,12,https://jiviteshkumar.github.io/climate_/advisories.html,60,0,0
+1788463540524,58,05 Advisories,200,OK,Citizens Browsing the Platform 1-9,text,true,,11844,217,12,12,https://jiviteshkumar.github.io/climate_/advisories.html,58,0,0
+1788463540522,62,05 Advisories,200,OK,Citizens Browsing the Platform 1-3,text,true,,11844,217,12,12,https://jiviteshkumar.github.io/climate_/advisories.html,62,0,0
+1788463540429,183,01 Home,200,OK,Citizens Browsing the Platform 1-12,text,true,,15827,212,12,12,https://jiviteshkumar.github.io/climate_/index.html,183,0,134
+1788463540599,56,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-7,text,true,,12101,216,13,13,https://jiviteshkumar.github.io/climate_/dashboard.html,56,0,0
+1788463540645,51,04 IoT Network,200,OK,Citizens Browsing the Platform 1-10,text,true,,12192,217,13,13,https://jiviteshkumar.github.io/climate_/monitoring.html,46,0,0
+1788463540738,58,01 Home,200,OK,Citizens Browsing the Platform 1-8,text,true,,15827,212,13,13,https://jiviteshkumar.github.io/climate_/index.html,58,0,0
+1788463540770,60,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-11,text,true,,13631,215,13,13,https://jiviteshkumar.github.io/climate_/forecast.html,51,0,0
+1788463540738,113,05 Advisories,200,OK,Citizens Browsing the Platform 1-5,text,true,,11844,217,13,13,https://jiviteshkumar.github.io/climate_/advisories.html,113,0,0
+1788463540816,57,04 IoT Network,200,OK,Citizens Browsing the Platform 1-6,text,true,,12192,217,13,13,https://jiviteshkumar.github.io/climate_/monitoring.html,57,0,0
+1788463540847,66,06 About,200,OK,Citizens Browsing the Platform 1-2,text,true,,16707,212,13,13,https://jiviteshkumar.github.io/climate_/about.html,66,0,0
+1788463540847,71,06 About,200,OK,Citizens Browsing the Platform 1-4,text,true,,16707,212,13,13,https://jiviteshkumar.github.io/climate_/about.html,71,0,0
+1788463540894,66,06 About,200,OK,Citizens Browsing the Platform 1-3,text,true,,16707,212,13,13,https://jiviteshkumar.github.io/climate_/about.html,66,0,0
+1788463540894,66,06 About,200,OK,Citizens Browsing the Platform 1-9,text,true,,16707,212,13,13,https://jiviteshkumar.github.io/climate_/about.html,66,0,0
+1788463540894,66,06 About,200,OK,Citizens Browsing the Platform 1-1,text,true,,16707,212,13,13,https://jiviteshkumar.github.io/climate_/about.html,66,0,0
+1788463540924,64,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-12,text,true,,12101,216,13,13,https://jiviteshkumar.github.io/climate_/dashboard.html,55,0,0
+1788463540971,55,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-7,text,true,,13631,215,13,13,https://jiviteshkumar.github.io/climate_/forecast.html,55,0,0
+1788463541002,66,05 Advisories,200,OK,Citizens Browsing the Platform 1-10,text,true,,11844,217,13,13,https://jiviteshkumar.github.io/climate_/advisories.html,66,0,0
+1788463540925,173,01 Home,200,OK,Citizens Browsing the Platform 1-13,text,true,,15827,212,13,13,https://jiviteshkumar.github.io/climate_/index.html,166,0,110
+1788463541096,60,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-8,text,true,,12101,216,14,14,https://jiviteshkumar.github.io/climate_/dashboard.html,60,0,0
+1788463541142,76,04 IoT Network,200,OK,Citizens Browsing the Platform 1-11,text,true,,12192,217,14,14,https://jiviteshkumar.github.io/climate_/monitoring.html,72,0,0
+1788463541157,80,06 About,200,OK,Citizens Browsing the Platform 1-5,text,true,,16707,212,14,14,https://jiviteshkumar.github.io/climate_/about.html,80,0,0
+1788463541189,69,05 Advisories,200,OK,Citizens Browsing the Platform 1-6,text,true,,11844,217,14,14,https://jiviteshkumar.github.io/climate_/advisories.html,69,0,0
+1788463541220,72,01 Home,200,OK,Citizens Browsing the Platform 1-2,text,true,,15827,212,14,14,https://jiviteshkumar.github.io/climate_/index.html,72,0,0
+1788463541220,72,01 Home,200,OK,Citizens Browsing the Platform 1-4,text,true,,15827,212,14,14,https://jiviteshkumar.github.io/climate_/index.html,72,0,0
+1788463541268,75,01 Home,200,OK,Citizens Browsing the Platform 1-3,text,true,,15827,212,14,14,https://jiviteshkumar.github.io/climate_/index.html,75,0,0
+1788463541268,75,01 Home,200,OK,Citizens Browsing the Platform 1-1,text,true,,15827,212,14,14,https://jiviteshkumar.github.io/climate_/index.html,75,0,0
+1788463541268,75,01 Home,200,OK,Citizens Browsing the Platform 1-9,text,true,,15827,212,14,14,https://jiviteshkumar.github.io/climate_/index.html,75,0,0
+1788463541298,55,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-12,text,true,,13631,215,14,14,https://jiviteshkumar.github.io/climate_/forecast.html,46,0,0
+1788463541329,60,04 IoT Network,200,OK,Citizens Browsing the Platform 1-7,text,true,,12192,217,14,14,https://jiviteshkumar.github.io/climate_/monitoring.html,60,0,0
+1788463541375,53,06 About,200,OK,Citizens Browsing the Platform 1-10,text,true,,16707,212,14,14,https://jiviteshkumar.github.io/climate_/about.html,53,0,0
+1788463541407,62,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-13,text,true,,12101,216,14,14,https://jiviteshkumar.github.io/climate_/dashboard.html,55,0,0
+1788463541468,59,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-8,text,true,,13631,215,14,14,https://jiviteshkumar.github.io/climate_/forecast.html,59,0,0
+1788463541529,54,05 Advisories,200,OK,Citizens Browsing the Platform 1-11,text,true,,11844,217,14,14,https://jiviteshkumar.github.io/climate_/advisories.html,54,0,0
+1788463541438,165,01 Home,200,OK,Citizens Browsing the Platform 1-14,text,true,,15827,212,14,14,https://jiviteshkumar.github.io/climate_/index.html,159,0,109
+1788463541545,66,01 Home,200,OK,Citizens Browsing the Platform 1-5,text,true,,15827,212,14,14,https://jiviteshkumar.github.io/climate_/index.html,66,0,0
+1788463541561,55,06 About,200,OK,Citizens Browsing the Platform 1-6,text,true,,16707,212,14,14,https://jiviteshkumar.github.io/climate_/about.html,55,0,0
+1788463541607,54,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-4,text,true,,12101,216,15,15,https://jiviteshkumar.github.io/climate_/dashboard.html,54,0,0
+1788463541607,59,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-2,text,true,,12101,216,15,15,https://jiviteshkumar.github.io/climate_/dashboard.html,59,0,0
+1788463541655,57,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-1,text,true,,12101,216,15,15,https://jiviteshkumar.github.io/climate_/dashboard.html,57,0,0
+1788463541655,57,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-9,text,true,,12101,216,15,15,https://jiviteshkumar.github.io/climate_/dashboard.html,57,0,0
+1788463541655,57,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-3,text,true,,12101,216,15,15,https://jiviteshkumar.github.io/climate_/dashboard.html,57,0,0
+1788463541655,57,04 IoT Network,200,OK,Citizens Browsing the Platform 1-12,text,true,,12192,217,15,15,https://jiviteshkumar.github.io/climate_/monitoring.html,48,0,0
+1788463541702,61,05 Advisories,200,OK,Citizens Browsing the Platform 1-7,text,true,,11844,217,15,15,https://jiviteshkumar.github.io/climate_/advisories.html,61,0,0
+1788463541733,64,01 Home,200,OK,Citizens Browsing the Platform 1-10,text,true,,15827,212,15,15,https://jiviteshkumar.github.io/climate_/index.html,64,0,0
+1788463541779,61,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-13,text,true,,13631,215,15,15,https://jiviteshkumar.github.io/climate_/forecast.html,52,0,0
+1788463541841,53,04 IoT Network,200,OK,Citizens Browsing the Platform 1-8,text,true,,12192,217,15,15,https://jiviteshkumar.github.io/climate_/monitoring.html,53,0,0
+1788463541888,62,06 About,200,OK,Citizens Browsing the Platform 1-11,text,true,,16707,212,15,15,https://jiviteshkumar.github.io/climate_/about.html,62,0,0
+1788463541919,58,01 Home,200,OK,Citizens Browsing the Platform 1-6,text,true,,15827,212,15,15,https://jiviteshkumar.github.io/climate_/index.html,58,0,0
+1788463541919,61,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-14,text,true,,12101,216,15,15,https://jiviteshkumar.github.io/climate_/dashboard.html,50,0,0
+1788463541919,68,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-5,text,true,,12101,216,15,15,https://jiviteshkumar.github.io/climate_/dashboard.html,68,0,0
+1788463541965,53,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-4,text,true,,13631,215,15,15,https://jiviteshkumar.github.io/climate_/forecast.html,53,0,0
+1788463541981,55,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-2,text,true,,13631,215,15,15,https://jiviteshkumar.github.io/climate_/forecast.html,55,0,0
+1788463542027,67,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-1,text,true,,13631,215,15,15,https://jiviteshkumar.github.io/climate_/forecast.html,67,0,0
+1788463542027,67,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-9,text,true,,13631,215,15,15,https://jiviteshkumar.github.io/climate_/forecast.html,67,0,0
+1788463542027,67,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-3,text,true,,13631,215,15,15,https://jiviteshkumar.github.io/climate_/forecast.html,67,0,0
+1788463542027,67,05 Advisories,200,OK,Citizens Browsing the Platform 1-12,text,true,,11844,217,15,15,https://jiviteshkumar.github.io/climate_/advisories.html,67,0,0
+1788463541935,159,01 Home,200,OK,Citizens Browsing the Platform 1-15,text,true,,15827,212,15,15,https://jiviteshkumar.github.io/climate_/index.html,144,0,105
+1788463542074,53,06 About,200,OK,Citizens Browsing the Platform 1-7,text,true,,16707,212,16,16,https://jiviteshkumar.github.io/climate_/about.html,53,0,0
+1788463542104,52,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-10,text,true,,12101,216,16,16,https://jiviteshkumar.github.io/climate_/dashboard.html,52,0,0
+1788463542152,60,04 IoT Network,200,OK,Citizens Browsing the Platform 1-13,text,true,,12192,217,16,16,https://jiviteshkumar.github.io/climate_/monitoring.html,51,0,0
+1788463542199,56,05 Advisories,200,OK,Citizens Browsing the Platform 1-8,text,true,,11844,217,16,16,https://jiviteshkumar.github.io/climate_/advisories.html,56,0,0
+1788463542262,56,01 Home,200,OK,Citizens Browsing the Platform 1-11,text,true,,15827,212,16,16,https://jiviteshkumar.github.io/climate_/index.html,55,0,0
+1788463542278,57,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-6,text,true,,12101,216,16,16,https://jiviteshkumar.github.io/climate_/dashboard.html,57,0,0
+1788463542296,55,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-14,text,true,,13631,215,16,16,https://jiviteshkumar.github.io/climate_/forecast.html,54,0,0
+1788463542294,65,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-5,text,true,,13631,215,16,16,https://jiviteshkumar.github.io/climate_/forecast.html,65,0,0
+1788463542325,57,04 IoT Network,200,OK,Citizens Browsing the Platform 1-4,text,true,,12192,217,16,16,https://jiviteshkumar.github.io/climate_/monitoring.html,57,0,0
+1788463542341,54,04 IoT Network,200,OK,Citizens Browsing the Platform 1-2,text,true,,12192,217,16,16,https://jiviteshkumar.github.io/climate_/monitoring.html,54,0,0
+1788463542403,64,04 IoT Network,200,OK,Citizens Browsing the Platform 1-3,text,true,,12192,217,16,16,https://jiviteshkumar.github.io/climate_/monitoring.html,64,0,0
+1788463542403,66,04 IoT Network,200,OK,Citizens Browsing the Platform 1-1,text,true,,12192,217,16,16,https://jiviteshkumar.github.io/climate_/monitoring.html,66,0,0
+1788463542403,66,06 About,200,OK,Citizens Browsing the Platform 1-12,text,true,,16707,212,16,16,https://jiviteshkumar.github.io/climate_/about.html,66,0,0
+1788463542403,66,04 IoT Network,200,OK,Citizens Browsing the Platform 1-9,text,true,,12192,217,16,16,https://jiviteshkumar.github.io/climate_/monitoring.html,66,0,0
+1788463542403,66,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-15,text,true,,12101,216,16,16,https://jiviteshkumar.github.io/climate_/dashboard.html,56,0,0
+1788463542433,70,01 Home,200,OK,Citizens Browsing the Platform 1-7,text,true,,15827,212,16,16,https://jiviteshkumar.github.io/climate_/index.html,70,0,0
+1788463542464,70,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-10,text,true,,13631,215,16,16,https://jiviteshkumar.github.io/climate_/forecast.html,70,0,0
+1788463542525,63,05 Advisories,200,OK,Citizens Browsing the Platform 1-13,text,true,,11844,217,16,16,https://jiviteshkumar.github.io/climate_/advisories.html,63,0,0
+1788463542434,155,01 Home,200,OK,Citizens Browsing the Platform 1-16,text,true,,15827,212,16,16,https://jiviteshkumar.github.io/climate_/index.html,154,0,106
+1788463542556,74,06 About,200,OK,Citizens Browsing the Platform 1-8,text,true,,16707,212,17,17,https://jiviteshkumar.github.io/climate_/about.html,74,0,0
+1788463542634,57,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-11,text,true,,12101,216,17,17,https://jiviteshkumar.github.io/climate_/dashboard.html,57,0,0
+1788463542649,68,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-6,text,true,,13631,215,17,17,https://jiviteshkumar.github.io/climate_/forecast.html,68,0,0
+1788463542665,53,04 IoT Network,200,OK,Citizens Browsing the Platform 1-14,text,true,,12193,217,17,17,https://jiviteshkumar.github.io/climate_/monitoring.html,52,0,0
+1788463542665,65,04 IoT Network,200,OK,Citizens Browsing the Platform 1-5,text,true,,12192,217,17,17,https://jiviteshkumar.github.io/climate_/monitoring.html,64,0,0
+1788463542696,55,05 Advisories,200,OK,Citizens Browsing the Platform 1-4,text,true,,11844,217,17,17,https://jiviteshkumar.github.io/climate_/advisories.html,55,0,0
+1788463542696,58,05 Advisories,200,OK,Citizens Browsing the Platform 1-2,text,true,,11844,217,17,17,https://jiviteshkumar.github.io/climate_/advisories.html,58,0,0
+1788463542773,68,05 Advisories,200,OK,Citizens Browsing the Platform 1-1,text,true,,11844,217,17,17,https://jiviteshkumar.github.io/climate_/advisories.html,68,0,0
+1788463542773,68,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-15,text,true,,13631,215,17,17,https://jiviteshkumar.github.io/climate_/forecast.html,68,0,0
+1788463542773,68,05 Advisories,200,OK,Citizens Browsing the Platform 1-3,text,true,,11844,217,17,17,https://jiviteshkumar.github.io/climate_/advisories.html,68,0,0
+1788463542773,68,05 Advisories,200,OK,Citizens Browsing the Platform 1-9,text,true,,11844,217,17,17,https://jiviteshkumar.github.io/climate_/advisories.html,68,0,0
+1788463542773,68,01 Home,200,OK,Citizens Browsing the Platform 1-12,text,true,,15827,212,17,17,https://jiviteshkumar.github.io/climate_/index.html,68,0,0
+1788463542804,53,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-7,text,true,,12101,216,17,17,https://jiviteshkumar.github.io/climate_/dashboard.html,53,0,0
+1788463542850,65,04 IoT Network,200,OK,Citizens Browsing the Platform 1-10,text,true,,12192,217,17,17,https://jiviteshkumar.github.io/climate_/monitoring.html,65,0,0
+1788463542897,54,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-16,text,true,,12101,216,17,17,https://jiviteshkumar.github.io/climate_/dashboard.html,50,0,0
+1788463542897,60,06 About,200,OK,Citizens Browsing the Platform 1-13,text,true,,16707,212,17,17,https://jiviteshkumar.github.io/climate_/about.html,60,0,0
+1788463542942,55,01 Home,200,OK,Citizens Browsing the Platform 1-8,text,true,,15827,212,17,17,https://jiviteshkumar.github.io/climate_/index.html,55,0,0
+1788463542928,143,01 Home,200,OK,Citizens Browsing the Platform 1-17,text,true,,15827,212,17,17,https://jiviteshkumar.github.io/climate_/index.html,135,0,92
+1788463543005,66,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-11,text,true,,13631,215,17,17,https://jiviteshkumar.github.io/climate_/forecast.html,66,0,0
+1788463543021,60,04 IoT Network,200,OK,Citizens Browsing the Platform 1-6,text,true,,12192,217,17,17,https://jiviteshkumar.github.io/climate_/monitoring.html,60,0,0
+1788463543021,61,05 Advisories,200,OK,Citizens Browsing the Platform 1-14,text,true,,11844,217,17,17,https://jiviteshkumar.github.io/climate_/advisories.html,61,0,0
+1788463543037,67,05 Advisories,200,OK,Citizens Browsing the Platform 1-5,text,true,,11844,217,17,17,https://jiviteshkumar.github.io/climate_/advisories.html,67,0,0
+1788463543052,67,06 About,200,OK,Citizens Browsing the Platform 1-4,text,true,,16707,212,18,18,https://jiviteshkumar.github.io/climate_/about.html,67,0,0
+1788463543067,57,06 About,200,OK,Citizens Browsing the Platform 1-2,text,true,,16707,212,17,17,https://jiviteshkumar.github.io/climate_/about.html,57,0,0
+1788463543144,68,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-12,text,true,,12101,216,16,16,https://jiviteshkumar.github.io/climate_/dashboard.html,68,0,0
+1788463543144,68,06 About,200,OK,Citizens Browsing the Platform 1-9,text,true,,16707,212,16,16,https://jiviteshkumar.github.io/climate_/about.html,68,0,0
+1788463543144,68,04 IoT Network,200,OK,Citizens Browsing the Platform 1-15,text,true,,12192,217,16,16,https://jiviteshkumar.github.io/climate_/monitoring.html,57,0,0
+1788463543144,70,06 About,200,OK,Citizens Browsing the Platform 1-3,text,true,,16707,212,16,16,https://jiviteshkumar.github.io/climate_/about.html,70,0,0
+1788463543144,70,06 About,200,OK,Citizens Browsing the Platform 1-1,text,true,,16707,212,16,16,https://jiviteshkumar.github.io/climate_/about.html,70,0,0
+1788463543159,55,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-7,text,true,,13631,215,16,16,https://jiviteshkumar.github.io/climate_/forecast.html,55,0,0
+1788463543223,52,05 Advisories,200,OK,Citizens Browsing the Platform 1-10,text,true,,11844,217,14,14,https://jiviteshkumar.github.io/climate_/advisories.html,52,0,0
+1788463543253,53,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-16,text,true,,13631,215,14,14,https://jiviteshkumar.github.io/climate_/forecast.html,42,0,0
+1788463543268,61,01 Home,200,OK,Citizens Browsing the Platform 1-13,text,true,,15827,212,14,14,https://jiviteshkumar.github.io/climate_/index.html,61,0,0
+1788463543300,55,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-8,text,true,,12101,216,14,14,https://jiviteshkumar.github.io/climate_/dashboard.html,55,0,0
+1788463543380,54,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-17,text,true,,12101,216,14,14,https://jiviteshkumar.github.io/climate_/dashboard.html,47,0,0
+1788463543378,57,04 IoT Network,200,OK,Citizens Browsing the Platform 1-11,text,true,,12192,217,14,14,https://jiviteshkumar.github.io/climate_/monitoring.html,57,0,0
+1788463543393,62,05 Advisories,200,OK,Citizens Browsing the Platform 1-6,text,true,,11844,217,14,14,https://jiviteshkumar.github.io/climate_/advisories.html,62,0,0
+1788463543393,62,06 About,200,OK,Citizens Browsing the Platform 1-14,text,true,,16707,212,14,14,https://jiviteshkumar.github.io/climate_/about.html,62,0,0
+1788463543407,73,06 About,200,OK,Citizens Browsing the Platform 1-5,text,true,,16707,212,14,14,https://jiviteshkumar.github.io/climate_/about.html,72,0,0
+1788463543515,66,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-12,text,true,,13631,215,13,13,https://jiviteshkumar.github.io/climate_/forecast.html,66,0,0
+1788463543515,72,01 Home,200,OK,Citizens Browsing the Platform 1-9,text,true,,15827,212,13,13,https://jiviteshkumar.github.io/climate_/index.html,72,0,0
+1788463543424,163,01 Home,200,OK,Citizens Browsing the Platform 1-18,text,true,,15827,212,13,13,https://jiviteshkumar.github.io/climate_/index.html,158,0,103
+1788463543530,57,04 IoT Network,200,OK,Citizens Browsing the Platform 1-7,text,true,,12192,217,13,13,https://jiviteshkumar.github.io/climate_/monitoring.html,57,0,0
+1788463543515,72,05 Advisories,200,OK,Citizens Browsing the Platform 1-15,text,true,,11844,217,13,13,https://jiviteshkumar.github.io/climate_/advisories.html,72,0,0
+1788463543592,59,06 About,200,OK,Citizens Browsing the Platform 1-10,text,true,,16707,212,14,14,https://jiviteshkumar.github.io/climate_/about.html,59,0,0
+1788463543623,63,04 IoT Network,200,OK,Citizens Browsing the Platform 1-16,text,true,,12192,217,14,14,https://jiviteshkumar.github.io/climate_/monitoring.html,63,0,0
+1788463543637,56,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-13,text,true,,12101,216,14,14,https://jiviteshkumar.github.io/climate_/dashboard.html,56,0,0
+1788463543668,57,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-8,text,true,,13631,215,14,14,https://jiviteshkumar.github.io/climate_/forecast.html,57,0,0
+1788463543746,65,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-17,text,true,,13631,215,14,14,https://jiviteshkumar.github.io/climate_/forecast.html,53,0,0
+1788463543746,67,05 Advisories,200,OK,Citizens Browsing the Platform 1-11,text,true,,11844,217,14,14,https://jiviteshkumar.github.io/climate_/advisories.html,67,0,0
+1788463543761,59,06 About,200,OK,Citizens Browsing the Platform 1-6,text,true,,16707,212,14,14,https://jiviteshkumar.github.io/climate_/about.html,59,0,0
+1788463543761,60,01 Home,200,OK,Citizens Browsing the Platform 1-14,text,true,,15827,212,14,14,https://jiviteshkumar.github.io/climate_/index.html,60,0,0
+1788463543887,59,04 IoT Network,200,OK,Citizens Browsing the Platform 1-12,text,true,,12192,217,13,13,https://jiviteshkumar.github.io/climate_/monitoring.html,59,0,0
+1788463543903,66,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-9,text,true,,12101,216,13,13,https://jiviteshkumar.github.io/climate_/dashboard.html,66,0,0
+1788463543903,65,06 About,200,OK,Citizens Browsing the Platform 1-15,text,true,,16707,212,13,13,https://jiviteshkumar.github.io/climate_/about.html,65,0,0
+1788463543903,65,05 Advisories,200,OK,Citizens Browsing the Platform 1-7,text,true,,11844,217,13,13,https://jiviteshkumar.github.io/climate_/advisories.html,65,0,0
+1788463543903,65,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-18,text,true,,12101,216,13,13,https://jiviteshkumar.github.io/climate_/dashboard.html,58,0,0
+1788463543964,58,01 Home,200,OK,Citizens Browsing the Platform 1-10,text,true,,15827,212,13,13,https://jiviteshkumar.github.io/climate_/index.html,58,0,0
+1788463543995,51,05 Advisories,200,OK,Citizens Browsing the Platform 1-16,text,true,,11844,217,13,13,https://jiviteshkumar.github.io/climate_/advisories.html,51,0,0
+1788463543995,67,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-13,text,true,,13631,215,13,13,https://jiviteshkumar.github.io/climate_/forecast.html,67,0,0
+1788463544026,73,04 IoT Network,200,OK,Citizens Browsing the Platform 1-8,text,true,,12192,217,13,13,https://jiviteshkumar.github.io/climate_/monitoring.html,72,0,0
+1788463543933,166,01 Home,200,OK,Citizens Browsing the Platform 1-19,text,true,,15827,212,13,13,https://jiviteshkumar.github.io/climate_/index.html,166,0,111
+1788463544118,53,04 IoT Network,200,OK,Citizens Browsing the Platform 1-17,text,true,,12192,217,14,14,https://jiviteshkumar.github.io/climate_/monitoring.html,46,0,0
+1788463544118,65,06 About,200,OK,Citizens Browsing the Platform 1-11,text,true,,16707,212,14,14,https://jiviteshkumar.github.io/climate_/about.html,65,0,0
+1788463544133,62,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-14,text,true,,12101,216,14,14,https://jiviteshkumar.github.io/climate_/dashboard.html,62,0,0
+1788463544257,58,05 Advisories,200,OK,Citizens Browsing the Platform 1-12,text,true,,11844,217,14,14,https://jiviteshkumar.github.io/climate_/advisories.html,58,0,0
+1788463544273,65,01 Home,200,OK,Citizens Browsing the Platform 1-15,text,true,,15827,212,14,14,https://jiviteshkumar.github.io/climate_/index.html,65,0,0
+1788463544273,65,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-18,text,true,,13631,215,14,14,https://jiviteshkumar.github.io/climate_/forecast.html,56,0,0
+1788463544273,66,06 About,200,OK,Citizens Browsing the Platform 1-7,text,true,,16707,212,14,14,https://jiviteshkumar.github.io/climate_/about.html,66,0,0
+1788463544273,66,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-9,text,true,,13631,215,14,14,https://jiviteshkumar.github.io/climate_/forecast.html,66,0,0
+1788463544335,58,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-10,text,true,,12101,216,13,13,https://jiviteshkumar.github.io/climate_/dashboard.html,58,0,0
+1788463544365,62,04 IoT Network,200,OK,Citizens Browsing the Platform 1-13,text,true,,12192,217,13,13,https://jiviteshkumar.github.io/climate_/monitoring.html,62,0,0
+1788463544366,62,06 About,200,OK,Citizens Browsing the Platform 1-16,text,true,,16707,212,13,13,https://jiviteshkumar.github.io/climate_/about.html,61,0,0
+1788463544412,63,05 Advisories,200,OK,Citizens Browsing the Platform 1-8,text,true,,11844,217,13,13,https://jiviteshkumar.github.io/climate_/advisories.html,63,0,0
+1788463544412,63,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-19,text,true,,12101,216,13,13,https://jiviteshkumar.github.io/climate_/dashboard.html,59,0,0
+1788463544473,49,05 Advisories,200,OK,Citizens Browsing the Platform 1-17,text,true,,11844,217,13,13,https://jiviteshkumar.github.io/climate_/advisories.html,49,0,0
+1788463544490,59,01 Home,200,OK,Citizens Browsing the Platform 1-11,text,true,,15827,212,13,13,https://jiviteshkumar.github.io/climate_/index.html,59,0,0
+1788463544504,54,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-14,text,true,,13631,215,13,13,https://jiviteshkumar.github.io/climate_/forecast.html,54,0,0
+1788463544429,179,01 Home,200,OK,Citizens Browsing the Platform 1-20,text,true,,15827,212,13,13,https://jiviteshkumar.github.io/climate_/index.html,179,0,117
+1788463544628,59,06 About,200,OK,Citizens Browsing the Platform 1-12,text,true,,16707,212,13,13,https://jiviteshkumar.github.io/climate_/about.html,59,0,0
+1788463544643,64,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-15,text,true,,12101,216,13,13,https://jiviteshkumar.github.io/climate_/dashboard.html,64,0,0
+1788463544643,64,04 IoT Network,200,OK,Citizens Browsing the Platform 1-18,text,true,,12192,217,13,13,https://jiviteshkumar.github.io/climate_/monitoring.html,54,0,0
+1788463544643,64,04 IoT Network,200,OK,Citizens Browsing the Platform 1-9,text,true,,12192,217,13,13,https://jiviteshkumar.github.io/climate_/monitoring.html,64,0,0
+1788463544705,57,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-10,text,true,,13631,215,13,13,https://jiviteshkumar.github.io/climate_/forecast.html,57,0,0
+1788463544737,56,01 Home,200,OK,Citizens Browsing the Platform 1-16,text,true,,15827,212,13,13,https://jiviteshkumar.github.io/climate_/index.html,56,0,0
+1788463544737,64,05 Advisories,200,OK,Citizens Browsing the Platform 1-13,text,true,,11844,217,13,13,https://jiviteshkumar.github.io/climate_/advisories.html,64,0,0
+1788463544783,53,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-19,text,true,,13631,215,13,13,https://jiviteshkumar.github.io/climate_/forecast.html,46,0,0
+1788463544783,54,06 About,200,OK,Citizens Browsing the Platform 1-8,text,true,,16707,212,13,13,https://jiviteshkumar.github.io/climate_/about.html,54,0,0
+1788463544829,54,06 About,200,OK,Citizens Browsing the Platform 1-17,text,true,,16707,212,12,12,https://jiviteshkumar.github.io/climate_/about.html,54,0,0
+1788463544862,53,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-11,text,true,,12101,216,12,12,https://jiviteshkumar.github.io/climate_/dashboard.html,53,0,0
+1788463544862,58,04 IoT Network,200,OK,Citizens Browsing the Platform 1-14,text,true,,12193,217,12,12,https://jiviteshkumar.github.io/climate_/monitoring.html,58,0,0
+1788463544923,59,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-20,text,true,,12101,216,12,12,https://jiviteshkumar.github.io/climate_/dashboard.html,49,0,0
+1788463545001,57,01 Home,200,OK,Citizens Browsing the Platform 1-12,text,true,,15827,212,12,12,https://jiviteshkumar.github.io/climate_/index.html,57,0,0
+1788463545017,66,05 Advisories,200,OK,Citizens Browsing the Platform 1-18,text,true,,11844,217,12,12,https://jiviteshkumar.github.io/climate_/advisories.html,66,0,0
+1788463545017,66,05 Advisories,200,OK,Citizens Browsing the Platform 1-9,text,true,,11844,217,12,12,https://jiviteshkumar.github.io/climate_/advisories.html,66,0,0
+1788463545017,66,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-15,text,true,,13631,215,12,12,https://jiviteshkumar.github.io/climate_/forecast.html,66,0,0
+1788463545078,59,04 IoT Network,200,OK,Citizens Browsing the Platform 1-10,text,true,,12192,217,12,12,https://jiviteshkumar.github.io/climate_/monitoring.html,59,0,0
+1788463545109,54,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-16,text,true,,12101,216,12,12,https://jiviteshkumar.github.io/climate_/dashboard.html,54,0,0
+1788463545109,62,06 About,200,OK,Citizens Browsing the Platform 1-13,text,true,,16707,212,12,12,https://jiviteshkumar.github.io/climate_/about.html,61,0,0
+1788463545139,57,04 IoT Network,200,OK,Citizens Browsing the Platform 1-19,text,true,,12192,217,12,12,https://jiviteshkumar.github.io/climate_/monitoring.html,55,0,0
+1788463545186,60,01 Home,200,OK,Citizens Browsing the Platform 1-17,text,true,,15828,212,12,12,https://jiviteshkumar.github.io/climate_/index.html,56,0,0
+1788463545234,56,05 Advisories,200,OK,Citizens Browsing the Platform 1-14,text,true,,11844,217,12,12,https://jiviteshkumar.github.io/climate_/advisories.html,56,0,0
+1788463545232,58,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-11,text,true,,13631,215,12,12,https://jiviteshkumar.github.io/climate_/forecast.html,57,0,0
+1788463545293,62,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-20,text,true,,13632,215,12,12,https://jiviteshkumar.github.io/climate_/forecast.html,50,0,0
+1788463545370,80,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-12,text,true,,12101,216,12,12,https://jiviteshkumar.github.io/climate_/dashboard.html,79,0,0
+1788463545386,70,04 IoT Network,200,OK,Citizens Browsing the Platform 1-15,text,true,,12192,217,12,12,https://jiviteshkumar.github.io/climate_/monitoring.html,70,0,0
+1788463545386,75,06 About,200,OK,Citizens Browsing the Platform 1-18,text,true,,16708,212,12,12,https://jiviteshkumar.github.io/climate_/about.html,75,0,0
+1788463545386,75,06 About,200,OK,Citizens Browsing the Platform 1-9,text,true,,16707,212,12,12,https://jiviteshkumar.github.io/climate_/about.html,75,0,0
+1788463545454,61,05 Advisories,200,OK,Citizens Browsing the Platform 1-10,text,true,,11844,217,11,11,https://jiviteshkumar.github.io/climate_/advisories.html,61,0,0
+1788463545484,58,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-16,text,true,,13631,215,11,11,https://jiviteshkumar.github.io/climate_/forecast.html,57,0,0
+1788463545482,67,01 Home,200,OK,Citizens Browsing the Platform 1-13,text,true,,15828,212,11,11,https://jiviteshkumar.github.io/climate_/index.html,67,0,0
+1788463545512,65,05 Advisories,200,OK,Citizens Browsing the Platform 1-19,text,true,,11844,217,11,11,https://jiviteshkumar.github.io/climate_/advisories.html,65,0,0
+1788463545560,58,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-17,text,true,,12102,216,11,11,https://jiviteshkumar.github.io/climate_/dashboard.html,58,0,0
+1788463545606,62,04 IoT Network,200,OK,Citizens Browsing the Platform 1-11,text,true,,12192,217,11,11,https://jiviteshkumar.github.io/climate_/monitoring.html,62,0,0
+1788463545606,66,06 About,200,OK,Citizens Browsing the Platform 1-14,text,true,,16707,212,11,11,https://jiviteshkumar.github.io/climate_/about.html,66,0,0
+1788463545668,70,04 IoT Network,200,OK,Citizens Browsing the Platform 1-20,text,true,,12192,217,11,11,https://jiviteshkumar.github.io/climate_/monitoring.html,53,0,0
+1788463545760,65,05 Advisories,200,OK,Citizens Browsing the Platform 1-15,text,true,,11844,217,11,11,https://jiviteshkumar.github.io/climate_/advisories.html,65,0,0
+1788463545761,65,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-12,text,true,,13631,215,11,11,https://jiviteshkumar.github.io/climate_/forecast.html,65,0,0
+1788463545776,58,01 Home,200,OK,Citizens Browsing the Platform 1-18,text,true,,15828,212,11,11,https://jiviteshkumar.github.io/climate_/index.html,57,0,0
+1788463545824,56,06 About,200,OK,Citizens Browsing the Platform 1-10,text,true,,16707,212,11,11,https://jiviteshkumar.github.io/climate_/about.html,56,0,0
+1788463545856,55,04 IoT Network,200,OK,Citizens Browsing the Platform 1-16,text,true,,12192,217,10,10,https://jiviteshkumar.github.io/climate_/monitoring.html,55,0,0
+1788463545855,59,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-13,text,true,,12102,216,10,10,https://jiviteshkumar.github.io/climate_/dashboard.html,59,0,0
+1788463545887,65,06 About,200,OK,Citizens Browsing the Platform 1-19,text,true,,16707,212,10,10,https://jiviteshkumar.github.io/climate_/about.html,65,0,0
+1788463545933,49,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-17,text,true,,13631,215,10,10,https://jiviteshkumar.github.io/climate_/forecast.html,49,0,0
+1788463545979,58,05 Advisories,200,OK,Citizens Browsing the Platform 1-11,text,true,,11844,217,10,10,https://jiviteshkumar.github.io/climate_/advisories.html,58,0,0
+1788463545979,58,01 Home,200,OK,Citizens Browsing the Platform 1-14,text,true,,15828,212,10,10,https://jiviteshkumar.github.io/climate_/index.html,58,0,0
+1788463546041,50,05 Advisories,200,OK,Citizens Browsing the Platform 1-20,text,true,,11844,217,10,10,https://jiviteshkumar.github.io/climate_/advisories.html,50,0,0
+1788463546134,63,04 IoT Network,200,OK,Citizens Browsing the Platform 1-12,text,true,,12192,217,10,10,https://jiviteshkumar.github.io/climate_/monitoring.html,63,0,0
+1788463546134,64,06 About,200,OK,Citizens Browsing the Platform 1-15,text,true,,16707,212,10,10,https://jiviteshkumar.github.io/climate_/about.html,64,0,0
+1788463546149,51,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-18,text,true,,12102,216,10,10,https://jiviteshkumar.github.io/climate_/dashboard.html,51,0,0
+1788463546212,59,05 Advisories,200,OK,Citizens Browsing the Platform 1-16,text,true,,11844,217,10,10,https://jiviteshkumar.github.io/climate_/advisories.html,59,0,0
+1788463546228,63,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-13,text,true,,13631,215,10,10,https://jiviteshkumar.github.io/climate_/forecast.html,63,0,0
+1788463546260,58,01 Home,200,OK,Citizens Browsing the Platform 1-19,text,true,,15828,212,10,10,https://jiviteshkumar.github.io/climate_/index.html,58,0,0
+1788463546291,49,04 IoT Network,200,OK,Citizens Browsing the Platform 1-17,text,true,,12192,217,10,10,https://jiviteshkumar.github.io/climate_/monitoring.html,49,0,0
+1788463546351,71,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-14,text,true,,12102,216,10,10,https://jiviteshkumar.github.io/climate_/dashboard.html,71,0,0
+1788463546351,71,06 About,200,OK,Citizens Browsing the Platform 1-11,text,true,,16707,212,10,10,https://jiviteshkumar.github.io/climate_/about.html,71,0,0
+1788463546399,64,06 About,200,OK,Citizens Browsing the Platform 1-20,text,true,,16707,212,9,9,https://jiviteshkumar.github.io/climate_/about.html,64,0,0
+1788463546507,56,05 Advisories,200,OK,Citizens Browsing the Platform 1-12,text,true,,11844,217,9,9,https://jiviteshkumar.github.io/climate_/advisories.html,56,0,0
+1788463546507,62,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-18,text,true,,13631,215,9,9,https://jiviteshkumar.github.io/climate_/forecast.html,62,0,0
+1788463546507,63,01 Home,200,OK,Citizens Browsing the Platform 1-15,text,true,,15828,212,9,9,https://jiviteshkumar.github.io/climate_/index.html,63,0,0
+1788463546585,61,06 About,200,OK,Citizens Browsing the Platform 1-16,text,true,,16707,212,9,9,https://jiviteshkumar.github.io/climate_/about.html,61,0,0
+1788463546600,49,04 IoT Network,200,OK,Citizens Browsing the Platform 1-13,text,true,,12192,217,9,9,https://jiviteshkumar.github.io/climate_/monitoring.html,49,0,0
+1788463546647,51,05 Advisories,200,OK,Citizens Browsing the Platform 1-17,text,true,,11844,217,9,9,https://jiviteshkumar.github.io/climate_/advisories.html,51,0,0
+1788463546633,65,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-19,text,true,,12102,216,9,9,https://jiviteshkumar.github.io/climate_/dashboard.html,65,0,0
+1788463546725,61,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-14,text,true,,13631,215,9,9,https://jiviteshkumar.github.io/climate_/forecast.html,61,0,0
+1788463546771,56,01 Home,200,OK,Citizens Browsing the Platform 1-20,text,true,,15828,212,9,9,https://jiviteshkumar.github.io/climate_/index.html,56,0,0
+1788463546879,55,04 IoT Network,200,OK,Citizens Browsing the Platform 1-18,text,true,,12192,217,9,9,https://jiviteshkumar.github.io/climate_/monitoring.html,55,0,0
+1788463546879,57,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-15,text,true,,12102,216,9,9,https://jiviteshkumar.github.io/climate_/dashboard.html,57,0,0
+1788463546879,59,06 About,200,OK,Citizens Browsing the Platform 1-12,text,true,,16707,212,9,9,https://jiviteshkumar.github.io/climate_/about.html,59,0,0
+1788463546957,55,01 Home,200,OK,Citizens Browsing the Platform 1-16,text,true,,15828,212,8,8,https://jiviteshkumar.github.io/climate_/index.html,54,0,0
+1788463546957,60,05 Advisories,200,OK,Citizens Browsing the Platform 1-13,text,true,,11844,217,8,8,https://jiviteshkumar.github.io/climate_/advisories.html,60,0,0
+1788463547003,53,06 About,200,OK,Citizens Browsing the Platform 1-17,text,true,,16707,212,8,8,https://jiviteshkumar.github.io/climate_/about.html,53,0,0
+1788463547003,53,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-19,text,true,,13632,215,8,8,https://jiviteshkumar.github.io/climate_/forecast.html,53,0,0
+1788463547097,58,04 IoT Network,200,OK,Citizens Browsing the Platform 1-14,text,true,,12194,217,8,8,https://jiviteshkumar.github.io/climate_/monitoring.html,58,0,0
+1788463547129,59,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-20,text,true,,12102,216,8,8,https://jiviteshkumar.github.io/climate_/dashboard.html,59,0,0
+1788463547236,61,05 Advisories,200,OK,Citizens Browsing the Platform 1-18,text,true,,11844,217,8,8,https://jiviteshkumar.github.io/climate_/advisories.html,61,0,0
+1788463547236,61,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-15,text,true,,13632,215,8,8,https://jiviteshkumar.github.io/climate_/forecast.html,61,0,0
+1788463547315,54,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-16,text,true,,12102,216,8,8,https://jiviteshkumar.github.io/climate_/dashboard.html,54,0,0
+1788463547330,55,06 About,200,OK,Citizens Browsing the Platform 1-13,text,true,,16707,212,8,8,https://jiviteshkumar.github.io/climate_/about.html,54,0,0
+1788463547361,51,01 Home,200,OK,Citizens Browsing the Platform 1-17,text,true,,15828,212,7,7,https://jiviteshkumar.github.io/climate_/index.html,51,0,0
+1788463547361,54,04 IoT Network,200,OK,Citizens Browsing the Platform 1-19,text,true,,12193,217,7,7,https://jiviteshkumar.github.io/climate_/monitoring.html,54,0,0
+1788463547469,60,05 Advisories,200,OK,Citizens Browsing the Platform 1-14,text,true,,11844,217,7,7,https://jiviteshkumar.github.io/climate_/advisories.html,60,0,0
+1788463547500,58,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-20,text,true,,13633,215,7,7,https://jiviteshkumar.github.io/climate_/forecast.html,57,0,0
+1788463547609,71,04 IoT Network,200,OK,Citizens Browsing the Platform 1-15,text,true,,12193,217,7,7,https://jiviteshkumar.github.io/climate_/monitoring.html,71,0,0
+1788463547609,71,06 About,200,OK,Citizens Browsing the Platform 1-18,text,true,,16708,212,7,7,https://jiviteshkumar.github.io/climate_/about.html,71,0,0
+1788463547671,52,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-16,text,true,,13632,215,7,7,https://jiviteshkumar.github.io/climate_/forecast.html,52,0,0
+1788463547716,56,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-17,text,true,,12102,216,7,7,https://jiviteshkumar.github.io/climate_/dashboard.html,56,0,0
+1788463547716,58,05 Advisories,200,OK,Citizens Browsing the Platform 1-19,text,true,,11845,217,7,7,https://jiviteshkumar.github.io/climate_/advisories.html,58,0,0
+1788463547841,54,06 About,200,OK,Citizens Browsing the Platform 1-14,text,true,,16707,212,7,7,https://jiviteshkumar.github.io/climate_/about.html,54,0,0
+1788463547872,63,04 IoT Network,200,OK,Citizens Browsing the Platform 1-20,text,true,,12193,217,6,6,https://jiviteshkumar.github.io/climate_/monitoring.html,63,0,0
+1788463547995,68,05 Advisories,200,OK,Citizens Browsing the Platform 1-15,text,true,,11844,217,6,6,https://jiviteshkumar.github.io/climate_/advisories.html,68,0,0
+1788463547995,68,01 Home,200,OK,Citizens Browsing the Platform 1-18,text,true,,15828,212,6,6,https://jiviteshkumar.github.io/climate_/index.html,68,0,0
+1788463548027,52,04 IoT Network,200,OK,Citizens Browsing the Platform 1-16,text,true,,12193,217,6,6,https://jiviteshkumar.github.io/climate_/monitoring.html,52,0,0
+1788463548073,57,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-17,text,true,,13632,215,6,6,https://jiviteshkumar.github.io/climate_/forecast.html,57,0,0
+1788463548089,51,06 About,200,OK,Citizens Browsing the Platform 1-19,text,true,,16707,212,6,6,https://jiviteshkumar.github.io/climate_/about.html,51,0,0
+1788463548243,53,05 Advisories,200,OK,Citizens Browsing the Platform 1-20,text,true,,11845,217,6,6,https://jiviteshkumar.github.io/climate_/advisories.html,53,0,0
+1788463548367,58,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-18,text,true,,12102,216,6,6,https://jiviteshkumar.github.io/climate_/dashboard.html,58,0,0
+1788463548368,58,06 About,200,OK,Citizens Browsing the Platform 1-15,text,true,,16708,212,6,6,https://jiviteshkumar.github.io/climate_/about.html,58,0,0
+1788463548383,56,05 Advisories,200,OK,Citizens Browsing the Platform 1-16,text,true,,11845,217,5,5,https://jiviteshkumar.github.io/climate_/advisories.html,56,0,0
+1788463548444,46,04 IoT Network,200,OK,Citizens Browsing the Platform 1-17,text,true,,12193,217,5,5,https://jiviteshkumar.github.io/climate_/monitoring.html,46,0,0
+1788463548445,54,01 Home,200,OK,Citizens Browsing the Platform 1-19,text,true,,15828,212,5,5,https://jiviteshkumar.github.io/climate_/index.html,54,0,0
+1788463548600,59,06 About,200,OK,Citizens Browsing the Platform 1-20,text,true,,16708,212,5,5,https://jiviteshkumar.github.io/climate_/about.html,59,0,0
+1788463548738,55,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-18,text,true,,13632,215,5,5,https://jiviteshkumar.github.io/climate_/forecast.html,55,0,0
+1788463548753,48,06 About,200,OK,Citizens Browsing the Platform 1-16,text,true,,16708,212,5,5,https://jiviteshkumar.github.io/climate_/about.html,48,0,0
+1788463548802,53,05 Advisories,200,OK,Citizens Browsing the Platform 1-17,text,true,,11845,217,4,4,https://jiviteshkumar.github.io/climate_/advisories.html,53,0,0
+1788463548802,53,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-19,text,true,,12102,216,4,4,https://jiviteshkumar.github.io/climate_/dashboard.html,53,0,0
+1788463548971,57,01 Home,200,OK,Citizens Browsing the Platform 1-20,text,true,,15828,212,4,4,https://jiviteshkumar.github.io/climate_/index.html,57,0,0
+1788463549096,59,04 IoT Network,200,OK,Citizens Browsing the Platform 1-18,text,true,,12193,217,4,4,https://jiviteshkumar.github.io/climate_/monitoring.html,59,0,0
+1788463549157,54,06 About,200,OK,Citizens Browsing the Platform 1-17,text,true,,16708,212,4,4,https://jiviteshkumar.github.io/climate_/about.html,54,0,0
+1788463549158,53,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-19,text,true,,13632,215,4,4,https://jiviteshkumar.github.io/climate_/forecast.html,53,0,0
+1788463549344,63,02 Heatwave Watch Dashboard,200,OK,Citizens Browsing the Platform 1-20,text,true,,12102,216,3,3,https://jiviteshkumar.github.io/climate_/dashboard.html,63,0,0
+1788463549467,62,05 Advisories,200,OK,Citizens Browsing the Platform 1-18,text,true,,11845,217,3,3,https://jiviteshkumar.github.io/climate_/advisories.html,62,0,0
+1788463549514,50,04 IoT Network,200,OK,Citizens Browsing the Platform 1-19,text,true,,12193,217,3,3,https://jiviteshkumar.github.io/climate_/monitoring.html,50,0,0
+1788463549715,71,03 AI Forecasting,200,OK,Citizens Browsing the Platform 1-20,text,true,,13633,215,3,3,https://jiviteshkumar.github.io/climate_/forecast.html,71,0,0
+1788463549838,60,06 About,200,OK,Citizens Browsing the Platform 1-18,text,true,,16709,212,3,3,https://jiviteshkumar.github.io/climate_/about.html,60,0,0
+1788463549870,54,05 Advisories,200,OK,Citizens Browsing the Platform 1-19,text,true,,11845,217,2,2,https://jiviteshkumar.github.io/climate_/advisories.html,54,0,0
+1788463550101,63,04 IoT Network,200,OK,Citizens Browsing the Platform 1-20,text,true,,12193,217,2,2,https://jiviteshkumar.github.io/climate_/monitoring.html,63,0,0
+1788463550226,63,06 About,200,OK,Citizens Browsing the Platform 1-19,text,true,,16708,212,2,2,https://jiviteshkumar.github.io/climate_/about.html,63,0,0
+1788463550472,67,05 Advisories,200,OK,Citizens Browsing the Platform 1-20,text,true,,11845,217,1,1,https://jiviteshkumar.github.io/climate_/advisories.html,66,0,0
+1788463550846,61,06 About,200,OK,Citizens Browsing the Platform 1-20,text,true,,16708,212,1,1,https://jiviteshkumar.github.io/climate_/about.html,61,0,0
