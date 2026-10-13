@@ -124,8 +124,35 @@ for h, (sev, _risk, _good) in CHECKS.items():
         missing.append((h, sev))
         print(" %-30s %-9s %s" % (h, "MISSING", "-"))
 
-print("\n Present : %d of %d" % (len(present), len(CHECKS)))
-print(" Missing : %d of %d" % (len(missing), len(CHECKS)))
+print("\n Present as HTTP header : %d of %d" % (len(present), len(CHECKS)))
+# ------------------------------------------------ document-level equivalents --
+# A static host such as GitHub Pages cannot set custom response headers, but two
+# of these policies can be declared inside the document itself.
+import re
+html = body.decode("utf-8", "replace")
+meta_csp = re.search(r'<meta[^>]+http-equiv=["\']Content-Security-Policy["\'][^>]*>', html, re.I)
+meta_ref = re.search(r'<meta[^>]+name=["\']referrer["\'][^>]*content=["\']([^"\']+)', html, re.I)
+
+print("\n DOCUMENT-LEVEL POLICY (meta element)")
+print(" %-30s %-9s %s" % ("POLICY", "STATUS", "NOTE"))
+print(" " + "-" * 74)
+if meta_csp:
+    present.append("content-security-policy")
+    missing = [m for m in missing if m[0] != "content-security-policy"]
+    print(" %-30s %-9s %s" % ("content-security-policy", "PRESENT", "declared via meta http-equiv"))
+    print(" %-30s %-9s %s" % ("", "", "frame-ancestors is IGNORED in a meta CSP"))
+else:
+    print(" %-30s %-9s %s" % ("content-security-policy", "ABSENT", "-"))
+if meta_ref:
+    present.append("referrer-policy")
+    missing = [m for m in missing if m[0] != "referrer-policy"]
+    print(" %-30s %-9s %s" % ("referrer-policy", "PRESENT", "meta name=referrer: " + meta_ref.group(1)))
+else:
+    print(" %-30s %-9s %s" % ("referrer-policy", "ABSENT", "-"))
+
+print("\n Effective total present : %d of %d" % (len(present), len(CHECKS)))
+print(" Still missing           : %d of %d  (header-only, not settable on GitHub Pages)"
+      % (len(missing), len(CHECKS)))
 
 # ------------------------------------------------------- information leakage --
 title("4  INFORMATION DISCLOSURE")
